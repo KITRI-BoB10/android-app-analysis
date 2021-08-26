@@ -1,0 +1,11 @@
+/home/ubuntu/BoB/naver-webtoon/naver-webtoon-app-analysis/res/values-sw600dp/strings.xml
+/home/ubuntu/BoB/naver-webtoon/naver-webtoon-app-analysis/res/values-xxhdpi/strings.xml
+/home/ubuntu/BoB/naver-webtoon/naver-webtoon-app-analysis/res/values-hdpi/strings.xml
+/home/ubuntu/BoB/naver-webtoon/naver-webtoon-app-analysis/res/values-xxxhdpi/strings.xml
+/home/ubuntu/BoB/naver-webtoon/naver-webtoon-app-analysis/res/values-ko-hdpi/strings.xml
+/home/ubuntu/BoB/naver-webtoon/naver-webtoon-app-analysis/res/values-ko/strings.xml
+/home/ubuntu/BoB/naver-webtoon/naver-webtoon-app-analysis/res/values-ko-xhdpi/strings.xml
+/home/ubuntu/BoB/naver-webtoon/naver-webtoon-app-analysis/res/values/strings.xml
+/home/ubuntu/BoB/naver-webtoon/naver-webtoon-app-analysis/res/values-sw720dp/strings.xml
+/home/ubuntu/BoB/naver-webtoon/naver-webtoon-app-analysis/res/values-ko-sw600dp/strings.xml
+/home/ubuntu/BoB/naver-webtoon/naver-webtoon-app-analysis/res/values-xhdpi/strings.xml
