@@ -1,0 +1,239 @@
+.class final Lo/n$g;
+.super Lo/n;
+.source "ParameterHandler.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lo/n;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x18
+    name = "g"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        ">",
+        "Lo/n<",
+        "Ljava/util/Map<",
+        "Ljava/lang/String;",
+        "TT;>;>;"
+    }
+.end annotation
+
+
+# instance fields
+.field private final a:Ljava/lang/reflect/Method;
+
+.field private final b:I
+
+.field private final c:Lo/f;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lo/f<",
+            "TT;",
+            "Ljava/lang/String;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method constructor <init>(Ljava/lang/reflect/Method;ILo/f;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/reflect/Method;",
+            "I",
+            "Lo/f<",
+            "TT;",
+            "Ljava/lang/String;",
+            ">;)V"
+        }
+    .end annotation
+
+    .line 1
+    invoke-direct {p0}, Lo/n;-><init>()V
+
+    .line 2
+    iput-object p1, p0, Lo/n$g;->a:Ljava/lang/reflect/Method;
+
+    .line 3
+    iput p2, p0, Lo/n$g;->b:I
+
+    .line 4
+    iput-object p3, p0, Lo/n$g;->c:Lo/f;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method bridge synthetic a(Lo/p;Ljava/lang/Object;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .line 1
+    check-cast p2, Ljava/util/Map;
+
+    invoke-virtual {p0, p1, p2}, Lo/n$g;->d(Lo/p;Ljava/util/Map;)V
+
+    return-void
+.end method
+
+.method d(Lo/p;Ljava/util/Map;)V
+    .locals 4
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lo/p;",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "TT;>;)V"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    const/4 v0, 0x0
+
+    if-eqz p2, :cond_3
+
+    .line 1
+    invoke-interface {p2}, Ljava/util/Map;->entrySet()Ljava/util/Set;
+
+    move-result-object p2
+
+    invoke-interface {p2}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+
+    move-result-object p2
+
+    :goto_0
+    invoke-interface {p2}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_2
+
+    invoke-interface {p2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Ljava/util/Map$Entry;
+
+    .line 2
+    invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Ljava/lang/String;
+
+    if-eqz v2, :cond_1
+
+    .line 3
+    invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+
+    move-result-object v1
+
+    if-eqz v1, :cond_0
+
+    .line 4
+    iget-object v3, p0, Lo/n$g;->c:Lo/f;
+
+    invoke-interface {v3, v1}, Lo/f;->convert(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Ljava/lang/String;
+
+    invoke-virtual {p1, v2, v1}, Lo/p;->b(Ljava/lang/String;Ljava/lang/String;)V
+
+    goto :goto_0
+
+    .line 5
+    :cond_0
+    iget-object p1, p0, Lo/n$g;->a:Ljava/lang/reflect/Method;
+
+    iget p2, p0, Lo/n$g;->b:I
+
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v3, "Header map contained null value for key \'"
+
+    invoke-virtual {v1, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string v2, "\'."
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    new-array v0, v0, [Ljava/lang/Object;
+
+    invoke-static {p1, p2, v1, v0}, Lo/w;->p(Ljava/lang/reflect/Method;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException;
+
+    move-result-object p1
+
+    throw p1
+
+    .line 6
+    :cond_1
+    iget-object p1, p0, Lo/n$g;->a:Ljava/lang/reflect/Method;
+
+    iget p2, p0, Lo/n$g;->b:I
+
+    new-array v0, v0, [Ljava/lang/Object;
+
+    const-string v1, "Header map contained null key."
+
+    invoke-static {p1, p2, v1, v0}, Lo/w;->p(Ljava/lang/reflect/Method;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException;
+
+    move-result-object p1
+
+    throw p1
+
+    :cond_2
+    return-void
+
+    .line 7
+    :cond_3
+    iget-object p1, p0, Lo/n$g;->a:Ljava/lang/reflect/Method;
+
+    iget p2, p0, Lo/n$g;->b:I
+
+    new-array v0, v0, [Ljava/lang/Object;
+
+    const-string v1, "Header map was null."
+
+    invoke-static {p1, p2, v1, v0}, Lo/w;->p(Ljava/lang/reflect/Method;ILjava/lang/String;[Ljava/lang/Object;)Ljava/lang/RuntimeException;
+
+    move-result-object p1
+
+    goto :goto_2
+
+    :goto_1
+    throw p1
+
+    :goto_2
+    goto :goto_1
+.end method

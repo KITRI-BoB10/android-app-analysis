@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.nhn.android.minibrowser.MiniNLoadingIconView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/minibrowser_spinner_white_76" android:layout_centerInParent="true" />
+    <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:layout_gravity="center" android:paddingTop="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/minibrowser_loading_video" />
+</LinearLayout>

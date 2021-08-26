@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/item_dialog_selectbox_0" android:layout_width="fill_parent" android:layout_height="46.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="16.0dip" android:id="@id/textview_selectboxdialog_item" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/imageview_selectboxdialog_check" android:tag="binding_2" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/icon_dropdownmenu_check" android:layout_marginStart="4.0dip" app:layout_constraintBottom_toBottomOf="@id/textview_selectboxdialog_item" app:layout_constraintStart_toEndOf="@id/textview_selectboxdialog_item" app:layout_constraintTop_toTopOf="@id/textview_selectboxdialog_item" />
+</androidx.constraintlayout.widget.ConstraintLayout>

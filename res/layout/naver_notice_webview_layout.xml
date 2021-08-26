@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/web_holder" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ProgressBar android:id="@id/progress_bar" android:layout_width="fill_parent" android:layout_height="5.0dip" android:max="100" android:progressDrawable="@drawable/naver_notice_webview_progressbar" android:layout_alignParentTop="true" style="?android:progressBarStyleHorizontal" />
+</RelativeLayout>

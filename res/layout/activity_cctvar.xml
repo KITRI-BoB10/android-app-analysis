@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.opengl.GLSurfaceView android:id="@id/cctv_surface" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/cctv_arrows_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/cctv_up_arrow" android:layout_width="52.0dip" android:layout_height="30.0dip" android:layout_marginTop="55.0dip" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/cctv_down_arrow" android:layout_width="52.0dip" android:layout_height="30.0dip" android:layout_marginBottom="55.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/cctv_left_arrow" android:layout_width="30.0dip" android:layout_height="52.0dip" android:layout_marginLeft="8.0dip" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/cctv_right_arrow" android:layout_width="30.0dip" android:layout_height="52.0dip" android:layout_marginRight="8.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/cctv_ending" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <ImageView android:id="@id/cctv_close" android:layout_width="105.0dip" android:layout_height="34.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="7.0dip" android:layout_alignParentRight="true" android:onClick="onClickClose" />
+</RelativeLayout>

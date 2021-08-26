@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:tag="layout/layout_network_error_0" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="@color/black" android:gravity="center" android:id="@id/textview_error_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/network_loading_error_title" />
+    <TextView android:textSize="16.0sp" android:textColor="#ffa2a2a2" android:gravity="center" android:id="@id/textview_error_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/network_loading_error_message" android:includeFontPadding="false" />
+    <ImageView android:id="@id/imageview_retry" android:tag="binding_1" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginTop="27.0dip" android:src="@drawable/network_reload" android:scaleType="center" />
+</LinearLayout>

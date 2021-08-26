@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/fragment_episodelistrangeset_0" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/layer_bg" android:layout_width="240.0dip" android:layout_height="258.0dip">
+        <TextView android:textSize="15.0sp" android:typeface="sans" android:textStyle="bold" android:textColor="#ff151515" android:gravity="center" android:id="@id/episode_list_range_setting_title" android:layout_width="fill_parent" android:layout_height="43.5dip" android:text="@string/episode_list_range_setting_title" />
+        <View android:background="#ffcecece" android:layout_width="fill_parent" android:layout_height="@dimen/thin_line" android:layout_alignBottom="@id/episode_list_range_setting_title" />
+        <RelativeLayout android:id="@id/range_setting_layout" android:paddingTop="15.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/range_setting_button_layout" android:layout_below="@id/episode_list_range_setting_title">
+            <View android:background="#ffecfde6" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_centerVertical="true" />
+            <com.nhn.android.webtoon.temp.widget.ExpandGalleryVertical android:id="@id/range_setting_start_vgallery" android:layout_width="120.0dip" android:layout_height="fill_parent" />
+            <TextView android:textSize="13.0sp" android:typeface="sans" android:textColor="#ff151515" android:gravity="center" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginLeft="90.0dip" android:text="@string/hoe" android:layout_centerVertical="true" />
+            <com.nhn.android.webtoon.temp.widget.ExpandGalleryVertical android:id="@id/range_setting_end_vgallery" android:layout_width="120.0dip" android:layout_height="fill_parent" android:layout_toRightOf="@id/range_setting_start_vgallery" />
+            <TextView android:textSize="13.0sp" android:typeface="sans" android:textColor="#ff151515" android:gravity="center" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginLeft="180.0dip" android:text="@string/hoe" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <ImageView android:background="@drawable/episode_gra01" android:layout_width="fill_parent" android:layout_height="28.5dip" android:layout_alignTop="@id/range_setting_layout" />
+        <ImageView android:background="@drawable/episode_gra02" android:layout_width="fill_parent" android:layout_height="28.5dip" android:layout_alignBottom="@id/range_setting_layout" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/range_setting_button_layout" android:layout_width="fill_parent" android:layout_height="42.5dip" android:layout_alignParentBottom="true">
+            <TextView android:textSize="13.0sp" android:typeface="sans" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/range_setting_cancel" android:background="@drawable/selector_range_setting_bottom_left" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/cancel" android:layout_weight="1.0" />
+            <TextView android:textSize="13.0sp" android:typeface="sans" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/range_setting_ok" android:background="@drawable/selector_range_setting_bottom_right" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/Setting" android:layout_weight="1.0" />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

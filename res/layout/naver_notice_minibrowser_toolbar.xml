@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="49.0dip">
+        <ImageButton android:id="@id/webview_backkey" android:background="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_toolbar_btn_prev" android:layout_weight="1.0" android:contentDescription="이전 페이지" />
+        <ImageButton android:id="@id/webview_forwordkey" android:background="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_toolbar_btn_next" android:layout_weight="1.0" android:contentDescription="다음 페이지" />
+        <ImageButton android:id="@id/webview_gotoKey" android:background="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_toolbar_btn_browser" android:layout_weight="1.0" android:contentDescription="다른 브라우저로 열기" />
+        <View android:background="#ff000000" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_weight="0.0" />
+        <ImageButton android:id="@id/webview_endkey" android:background="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_toolbar_btn_close" android:layout_weight="1.0" android:contentDescription="닫기" />
+    </LinearLayout>
+    <View android:layout_gravity="top" android:background="#ffc6c6c6" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</FrameLayout>

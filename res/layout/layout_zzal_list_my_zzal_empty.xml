@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:tag="layout/layout_zzal_list_my_zzal_empty_0" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:background="@drawable/gz_t_empty" android:layout_width="114.0dip" android:layout_height="14.0dip" android:layout_marginTop="105.0dip" />
+    <ImageView android:background="@drawable/gz_img_empty" android:layout_width="114.0dip" android:layout_height="114.0dip" android:layout_marginTop="15.0dip" />
+    <TextView android:textSize="14.0sp" android:typeface="sans" android:textColor="#ffffffff" android:gravity="center" android:id="@id/zzal_my_zzal_empty_button" android:tag="binding_1" android:background="@drawable/gz_btn_viewstub" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginTop="25.0dip" android:text="@string/zzal_my_zzal_list_no_zzal_btn_txt" />
+</LinearLayout>

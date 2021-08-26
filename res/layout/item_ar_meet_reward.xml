@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/ar_meet_item_layout" android:background="@drawable/ar_meet_reward_item_shadow" android:layout_width="268.0dip" android:layout_height="438.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="25.0dip">
+        <FrameLayout android:background="@drawable/ar_meet_reward_background" android:layout_width="268.0dip" android:layout_height="438.0dip" android:layout_centerHorizontal="true">
+            <FrameLayout android:layout_width="220.0dip" android:layout_height="310.0dip" android:layout_marginLeft="24.0dip" android:layout_marginTop="24.0dip">
+                <com.nhn.android.webtoon.common.widget.ForegroundImageView android:id="@id/ar_meet_item_image" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="@drawable/ar_meet_image_border" />
+                <ImageView android:id="@id/ar_meet_item_image_cover" android:background="@drawable/meet_reward_image_cover" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <ImageView android:layout_gravity="center_horizontal" android:id="@id/ar_meet_waiting_dday" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="19.0dip" android:layout_marginTop="144.0dip" android:src="@drawable/ar_meet_reward_waiting_dday" />
+            </FrameLayout>
+        </FrameLayout>
+    </RelativeLayout>
+    <ImageView android:id="@id/ar_meet_item_tape" android:layout_width="98.0dip" android:layout_height="90.0dip" android:src="@drawable/ar_meet_bonus_item_tape" />
+</RelativeLayout>

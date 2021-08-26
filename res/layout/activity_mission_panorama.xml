@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/panorama_recyclerview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:layout_gravity="right" android:id="@id/panorama_close" android:padding="12.0dip" android:layout_width="54.0dip" android:layout_height="54.0dip" android:layout_marginTop="3.0dip" android:src="@drawable/ar_meet_close_white_shadow" />
+    <ImageView android:id="@id/panorama_tip" android:padding="12.0dip" android:layout_width="54.0dip" android:layout_height="54.0dip" android:layout_marginTop="3.0dip" android:src="@drawable/btn_question" />
+    <com.nhn.android.webtoon.episode.viewer.effect.meet.widget.TipLayout android:id="@id/panorama_tip_layout" android:background="#99804fc6" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/panorama_tip_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ar_meet_panorama_tip" android:layout_centerInParent="true" />
+        <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="@string/ar_meet_panorama_tip" android:layout_below="@id/panorama_tip_image" android:layout_centerHorizontal="true" />
+    </com.nhn.android.webtoon.episode.viewer.effect.meet.widget.TipLayout>
+    <View android:id="@id/panorama_mission_end" android:background="#ffffffff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

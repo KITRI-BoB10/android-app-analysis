@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/tagListWrapper" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.nbt.oss.barista.tabs.ANTagListView android:gravity="left" android:orientation="horizontal" android:id="@id/tagListView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:layout_gravity="left" android:background="@drawable/cookie_oven_tag_list_left_gradient" android:visibility="gone" android:layout_width="15.0dip" android:layout_height="36.0dip" />
+        <LinearLayout android:layout_gravity="right" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <View android:background="@drawable/cookie_oven_tag_list_right_gradient" android:layout_width="15.0dip" android:layout_height="36.0dip" />
+            <FrameLayout android:background="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ToggleButton android:id="@id/toggleButton" android:background="@drawable/cookieoven_tag_list_toogle_button" android:layout_width="40.0dip" android:layout_height="40.0dip" android:textOn="" android:textOff="" style="?android:borderlessButtonStyle" />
+            </FrameLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@id/empty" android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="10.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tagListWrapper">
+        <View android:layout_gravity="top" android:background="#ffe0e0e0" android:layout_width="fill_parent" android:layout_height="0.33000004dip" />
+    </FrameLayout>
+    <Spinner android:id="@id/btn_sort" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginLeft="16.0dip" android:layout_marginStart="16.0dip" android:overlapAnchor="false" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/empty" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#4d9d9d9d" android:paddingRight="@dimen/thin_line" android:layout_width="90.5dip" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/img_thumbnail_view" android:layout_width="90.0dip" android:layout_height="60.0dip" android:scaleType="centerCrop" />
+    <ImageView android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:src="@drawable/w_plus" android:layout_marginStart="5.0dip" />
+    <ImageView android:id="@id/img_dimmed_view" android:background="@color/episode_list_item_dimmed_read" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <CheckBox android:id="@id/episode_list_item_temp_select_checkbox" android:background="@drawable/selector_episode_list_temp_select_checkbox" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginLeft="6.0dip" android:button="@null" android:layout_centerVertical="true" app:buttonCompat="@null" />
+    <TextView android:textSize="16.0sp" android:typeface="sans" android:textStyle="bold" android:textColor="@color/white" android:id="@id/episode_list_item_temp_select_seq_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_toRightOf="@id/episode_list_item_temp_select_checkbox" android:layout_centerVertical="true" />
+</RelativeLayout>

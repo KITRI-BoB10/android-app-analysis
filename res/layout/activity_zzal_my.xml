@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/zzal_my_app_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip">
+            <com.nhn.android.webtoon.common.widget.CollapsingLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="enterAlways|scroll">
+                <com.nhn.android.webtoon.zzal.my.MyZzalOptionBar android:id="@id/zzal_my_submenu" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_below="@id/zzal_my_toolbar" />
+                <include android:id="@id/zzal_my_toolbar" layout="@layout/toolbar_zzal_list" />
+            </com.nhn.android.webtoon.common.widget.CollapsingLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <FrameLayout android:id="@id/zzal_my_fragment_holder" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        <ImageView android:textAppearance="?android:textAppearanceMedium" android:layout_gravity="end|bottom|center" android:id="@id/zzal_my_btn_go_top" android:visibility="invisible" android:layout_width="46.0dip" android:layout_height="46.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="12.0dip" android:src="@drawable/zzal_btn_top" app:layout_behavior="com.nhn.android.webtoon.zzal.main.widget.ZZalTopButtonBehavior" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>

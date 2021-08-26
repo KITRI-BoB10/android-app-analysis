@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/view_viewer_episode_detail_info_0" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="#ffe1e1e1" android:layout_width="fill_parent" android:layout_height="@dimen/thin_line" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="45.5dip" android:paddingStart="14.0dip" android:paddingEnd="15.0dip">
+        <ImageView android:layout_width="18.0dip" android:layout_height="17.0dip" android:src="@drawable/star_rating" />
+        <TextView android:textSize="20.0sp" android:textStyle="normal" android:textColor="#ffff4747" android:tag="binding_1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:fontFamily="sans-serif-medium" android:layout_marginStart="3.0dip" />
+        <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="#ff000000" android:gravity="center" android:tag="binding_2" android:background="@drawable/border_viewer_starbutton" android:layout_width="66.0dip" android:layout_height="32.0dip" android:letterSpacing="-0.07" />
+    </LinearLayout>
+    <View android:background="#ffe1e1e1" android:layout_width="fill_parent" android:layout_height="@dimen/thin_line" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:paddingTop="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" android:layout_marginBottom="3.0dip">
+        <TextView android:textSize="13.5sp" android:textStyle="bold" android:textColor="#ff000000" android:id="@id/textview_authorwords" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/writer_comment" android:layout_marginStart="15.0dip" android:letterSpacing="-0.02" app:layout_constrainedWidth="true" app:layout_constraintStart_toStartOf="parent" />
+        <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:id="@id/textview_left_bracket" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="(" android:layout_marginStart="5.0dip" android:letterSpacing="-0.02" app:layout_constraintEnd_toStartOf="@id/textview_writer" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toEndOf="@id/textview_authorwords" />
+        <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:ellipsize="end" android:id="@id/textview_writer" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxLines="1" android:singleLine="true" android:letterSpacing="-0.02" app:layout_constrainedWidth="true" app:layout_constraintEnd_toStartOf="@id/textview_right_bracket" app:layout_constraintStart_toEndOf="@id/textview_left_bracket" />
+        <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:id="@id/textview_right_bracket" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text=")" android:layout_marginEnd="15.0dip" android:letterSpacing="-0.02" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/textview_writer" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView android:textSize="11.5sp" android:textColor="#ff000000" android:tag="binding_4" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:minHeight="20.0dip" android:letterSpacing="-0.02" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:tag="binding_5" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingStart="13.0dip" android:paddingEnd="16.0dip">
+            <ImageView android:tag="binding_6" android:layout_width="27.0dip" android:layout_height="27.0dip" android:scaleType="fitXY" android:layout_marginEnd="3.0dip" />
+            <TextView android:textSize="17.0sp" android:textStyle="bold" android:tag="binding_7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-1.0dip" android:text="@string/btn_favorite_toon" android:letterSpacing="-0.02" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:tag="binding_8" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <ImageView android:tag="binding_9" android:paddingLeft="10.0dip" android:paddingTop="13.0dip" android:paddingRight="10.0dip" android:paddingBottom="13.0dip" android:layout_width="44.0dip" android:layout_height="fill_parent" android:src="@drawable/sns_share_icon_facebook" />
+            <ImageView android:tag="binding_10" android:paddingLeft="10.0dip" android:paddingTop="13.0dip" android:paddingRight="10.0dip" android:paddingBottom="13.0dip" android:layout_width="44.0dip" android:layout_height="fill_parent" android:src="@drawable/sns_share_icon_kakao" />
+            <ImageView android:tag="binding_11" android:paddingLeft="10.0dip" android:paddingTop="13.0dip" android:paddingRight="10.0dip" android:paddingBottom="13.0dip" android:layout_width="44.0dip" android:layout_height="fill_parent" android:src="@drawable/sns_share_icon_line" />
+            <ImageView android:tag="binding_12" android:layout_width="33.0dip" android:layout_height="fill_parent" android:src="@drawable/sns_share_icon_more" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

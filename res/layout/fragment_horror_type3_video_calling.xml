@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/horror_3_video_calling_ghost" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/horror_3_video_calling_text" android:visibility="invisible" android:layout_width="320.0dip" android:layout_height="50.0dip" android:layout_marginTop="40.0dip" />
+    <com.naver.webtoon.device.camera.CameraSourcePreview android:layout_gravity="bottom" android:id="@id/horror_3_video_calling_preview" android:layout_width="163.0dip" android:layout_height="217.0dip" android:layout_marginLeft="20.0dip" android:layout_marginBottom="20.0dip" />
+</FrameLayout>

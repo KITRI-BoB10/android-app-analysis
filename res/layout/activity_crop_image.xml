@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/cut_edit_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cutoshare="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/crop_image_toolbar" layout="@layout/toolbar_crop_image" />
+    <com.naver.webtoon.cutoshare.cropper.CropImageView android:id="@id/crop_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/action_bar_height" cutoshare:aspectRatioX="5" cutoshare:circleCorner="true" cutoshare:circleRadius="10.0dip" cutoshare:gridGuideColor="#ffffffff" cutoshare:guideColor="#ff27e12b" cutoshare:guideCornerColor="#ff27e12b" cutoshare:guidelines="onTouch" cutoshare:minCropLength="60.0dip" cutoshare:overlayBackground="@drawable/bg_deco" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/activity_blockuser_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@drawable/events_toolbar_background" android:layout_width="fill_parent" android:layout_height="@dimen/action_bar_height" app:layout_constraintTop_toTopOf="parent" app:navigationIcon="@drawable/icon_toolbar_up_black" app:title="@string/setting_comment_blockuser" style="@style/WebtoonTheme.Toolbar" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerview_blockuser" android:background="#ffffffff" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar" />
+    <androidx.fragment.app.FragmentContainerView android:id="@id/fragmentcontainerview_blockuser" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

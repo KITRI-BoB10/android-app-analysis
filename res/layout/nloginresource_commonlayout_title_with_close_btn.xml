@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/nloginresource_commonlayout_title" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/nloginglobal_otnloginhelppage_btn_close" android:paddingLeft="@dimen/nloginresource_dimen_closebtn_padding_left" android:paddingTop="@dimen/nloginresource_outerbox_padding_top" android:paddingRight="@dimen/nloginresource_dimen_closebtn_padding_right" android:paddingBottom="@dimen/nloginresource_dimen_closebtn_padding_bottom" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:contentDescription="@string/nloginresource_img_description_close_btn">
+        <ImageView android:background="@android:color/transparent" android:clickable="false" android:duplicateParentState="true" android:layout_width="@dimen/nloginresource_dimen_backimg_width" android:layout_height="@dimen/nloginresource_dimen_backimg_height" android:src="@drawable/nloginresource_img_close_2x" android:scaleType="fitCenter" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:background="@drawable/nloginresource_img_bi_2x" android:layout_width="@dimen/nloginresource_dimen_titleimage_width" android:layout_height="@dimen/nloginresource_dimen_titleimage_height" android:layout_marginTop="@dimen/nloginresource_titleimage_margin_top" android:layout_marginBottom="@dimen/nloginresource_titleimage_margin_bottom_help" android:scaleType="fitCenter" android:contentDescription="@string/nloginresource_img_description_naver_logo" />
+    </LinearLayout>
+</RelativeLayout>

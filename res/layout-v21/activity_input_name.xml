@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/bg_input_your_name" />
+    <TextView android:textSize="24.0dip" android:textColor="#ff000000" android:id="@id/label_input_your_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="150.0dip" android:text="@string/label_input_your_name" android:layout_centerHorizontal="true" android:lineSpacingExtra="3.0sp" android:textAlignment="center" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/input_name_container" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="21.0dip" android:layout_below="@id/label_input_your_name" android:layout_centerHorizontal="true">
+        <EditText android:textSize="18.0dip" android:textColor="#ff000000" android:id="@id/input_last_name" android:layout_width="100.0dip" android:layout_height="wrap_content" android:hint="@string/default_lastname" android:maxLines="1" android:maxLength="2" android:inputType="text" android:imeOptions="actionNext" style="@style/name_edittext">
+            <requestFocus />
+        </EditText>
+        <EditText android:textSize="18.0dip" android:textColor="#ff000000" android:id="@id/input_first_name" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_marginLeft="22.0dip" android:hint="@string/default_firstname" android:maxLines="1" android:maxLength="3" android:inputType="text" android:imeOptions="actionDone" style="@style/name_edittext" />
+    </LinearLayout>
+    <Button android:layout_width="280.0dip" android:layout_height="50.0dip" android:layout_marginTop="30.0dip" android:text="@string/OK" android:layout_below="@id/input_name_container" android:layout_centerHorizontal="true" android:onClick="onSubmitClick" android:stateListAnimator="@null" style="@style/meet_apply_button_style" />
+</RelativeLayout>

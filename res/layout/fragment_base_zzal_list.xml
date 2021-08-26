@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/fragment_base_zzal_list_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/zzal_list_swipe_refresh" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/base_zzal_list_recyclerview" android:background="#ffeff0f1" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    <ViewStub android:id="@id/zzal_list_network_error_layout_viewstub" android:tag="binding_1" android:layout="@layout/layout_zzal_list_network_error" android:inflatedId="@id/zzal_list_network_error_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/zzal_list_empty_layout_viewstub" android:tag="binding_2" android:layout="@layout/layout_zzal_list_my_zzal_empty" android:inflatedId="@id/zzal_list_my_zzal_empty_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

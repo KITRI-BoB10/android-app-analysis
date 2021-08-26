@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/fragment_my_login_0" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="15.0dip" android:textColor="#ff999999" android:gravity="center" android:id="@id/login_notice_text" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="4.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.3" />
+    <TextView android:textSize="15.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/login_button" android:tag="binding_2" android:background="#ff00d564" android:layout_width="125.0dip" android:layout_height="38.0dip" android:layout_marginTop="17.0dip" android:text="@string/login" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/login_notice_text" />
+</androidx.constraintlayout.widget.ConstraintLayout>

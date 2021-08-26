@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:tag="layout-v24/view_viewer_bannerproduct_0" android:layout_width="fill_parent" android:layout_height="145.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="10.0dip" android:foreground="@drawable/border_viewer_product" app:cardCornerRadius="4.0dip" app:cardElevation="0.0dip" app:cardPreventCornerOverlap="false" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/imageview_banner" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+</androidx.cardview.widget.CardView>

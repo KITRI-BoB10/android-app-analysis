@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/play_channel_list_item_layout" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="62.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.nhn.android.webtoon.common.widget.RoundedImageView android:id="@id/play_channel_list_item_image" android:layout_width="38.0dip" android:layout_height="38.0dip" android:layout_marginLeft="13.0dip" android:layout_marginTop="12.0dip" app:corner_radius="25.0dip" />
+    <TextView android:textSize="14.0dip" android:textColor="#ff404040" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/play_channel_list_item_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:maxLines="1" android:includeFontPadding="false" android:layout_weight="1.0" />
+    <FrameLayout android:id="@id/play_channel_list_item_subscribe_layer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginRight="8.0dip">
+        <CheckBox android:id="@id/play_channel_list_item_subscribe" android:background="@drawable/selector_play_channel_list_item_subscribe" android:padding="5.0dip" android:focusable="false" android:clickable="false" android:layout_width="70.0dip" android:layout_height="38.0dip" android:button="@null" app:buttonCompat="@null" />
+    </FrameLayout>
+</LinearLayout>

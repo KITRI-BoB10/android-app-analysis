@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layout_bestchallengestoreentrance" android:tag="layout/item_bestchallengestoreentrance_0" android:background="@drawable/selector_setting_item_background" android:layout_width="fill_parent" android:layout_height="47.0dip" android:layout_marginBottom="@dimen/thin_line"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/image_bestchallengestoreentrance" android:paddingLeft="13.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/w_plus" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="15.0dip" android:textColor="#ff060606" android:gravity="center_vertical" android:id="@id/text_bestchallengestoreentrance_title" android:tag="binding_1" android:paddingRight="13.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="7.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toRightOf="@id/image_bestchallengestoreentrance" app:layout_constraintTop_toTopOf="parent" />
+    <View android:background="#809d9d9d" android:layout_width="fill_parent" android:layout_height="0.5dip" app:layout_constraintBottom_toBottomOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

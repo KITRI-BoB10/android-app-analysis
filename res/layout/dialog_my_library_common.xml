@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/dialog_layout" android:background="@drawable/bg_popup_wh" android:layout_width="312.0dip" android:layout_height="166.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/dialog_close_layout" android:layout_width="34.0dip" android:layout_height="34.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+        <ImageView android:background="@drawable/selector_btn_popup_x" android:duplicateParentState="true" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <TextView android:textSize="17.0sp" android:textColor="@color/_191C1C" android:gravity="center" android:id="@id/dialog_title_text" android:layout_width="276.0dip" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/_555555" android:gravity="center" android:id="@id/dialog_subtitle_text" android:visibility="gone" android:layout_width="276.0dip" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_below="@id/dialog_title_text" android:layout_centerHorizontal="true" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <Button android:textSize="15.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/dialog_negative_button" android:background="@drawable/selector_popup_grey_button" android:visibility="gone" android:layout_width="132.0dip" android:layout_height="36.0dip" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="18.0dip" android:text="@string/no" />
+        <Button android:textSize="15.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/dialog_positive_button" android:background="@drawable/my_library_btn_bg" android:layout_width="132.0dip" android:layout_height="36.0dip" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="18.0dip" android:text="@string/yes" />
+    </LinearLayout>
+</RelativeLayout>

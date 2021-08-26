@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+<string name="version">1</string>
+<!-- 앱의 패키지명 -->
+<string name="app.package">com.nhn.android.webtoon</string>
+<!-- 서버 정보 -->
+<boolean name="isDomainMap" value="false" />
+<string name="domain.root">0000000000010395</string>
+<string name="domain.0000000000010395.url">https://drm.nbooks.naver.com</string>
+<string name="bootstrap.sub.url">drmone/pki/certissue.do</string>
+</map>

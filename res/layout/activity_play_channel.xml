@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff2f2f2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/play_channel_detail_top_toolbar_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="55.0dip">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="left" android:id="@id/channel_toolbar_pre" android:paddingLeft="6.0dip" android:paddingTop="6.0dip" android:paddingRight="11.0dip" android:paddingBottom="5.0dip" android:layout_width="47.0dip" android:layout_height="41.0dip" android:layout_marginLeft="1.0dip" android:layout_marginTop="12.0dip" android:src="@drawable/play_channel_detail_back" />
+            <TextView android:textSize="19.0dip" android:textColor="#ff404040" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/play_channel_detail_toolbar_title" android:layout_width="fill_parent" android:layout_height="27.0dip" android:layout_marginLeft="60.0dip" android:layout_marginTop="21.0dip" android:layout_marginRight="60.0dip" android:maxLines="1" android:includeFontPadding="false" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+            <ImageView android:id="@id/play_channel_detail_toolbar_coupon" android:padding="5.0dip" android:visibility="gone" android:layout_width="50.0dip" android:layout_height="40.0dip" android:layout_marginTop="12.5dip" android:layout_marginRight="5.0dip" android:src="@drawable/play_channel_detail_coupon" android:scaleType="fitXY" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.google.android.material.appbar.AppBarLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip">
+            <com.nhn.android.webtoon.common.widget.CollapsingLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="enterAlways|scroll">
+                <RelativeLayout android:id="@id/sub_option_bar_layout" android:background="#fff2f2f2" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="47.0dip" android:layout_below="@id/play_channel_detail_toolbar_game_layer">
+                    <TextView android:textSize="12.0dip" android:textColor="#ffb2b2b2" android:id="@id/channel_option_bar_total" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="17.0dip" android:text="@string/play_channel_list_option_bar_count" android:layout_alignParentLeft="true" />
+                    <TextView android:textSize="12.0dip" android:textColor="#ff000000" android:id="@id/play_channel_detail_option_bar_total_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginTop="17.0dip" android:layout_toRightOf="@id/channel_option_bar_total" />
+                    <TextView android:textSize="12.0dip" android:textColor="#ffb2b2b2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17.0dip" android:text="@string/play_channel_list_option_bar_count_unit" android:layout_toRightOf="@id/play_channel_detail_option_bar_total_count" />
+                    <RadioGroup android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:layout_alignParentRight="true">
+                        <RadioButton android:textSize="11.0dip" android:textColor="@color/play_sub_toolbar_order_selected" android:id="@id/play_channel_detail_option_order_register_date" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.5dip" android:button="@null" android:text="@string/play_channel_list_option_bar_order_lastest" app:buttonCompat="@null" />
+                        <ImageView android:layout_width="3.0dip" android:layout_height="3.0dip" android:layout_marginTop="23.5dip" android:src="@drawable/play_channel_detail_order_divider" />
+                        <RadioButton android:textSize="11.0dip" android:textColor="@color/play_sub_toolbar_order_selected" android:id="@id/play_channel_detail_option_order_like" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.5dip" android:button="@null" android:text="@string/play_channel_list_option_bar_order_pop" app:buttonCompat="@null" />
+                    </RadioGroup>
+                </RelativeLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/play_channel_detail_toolbar_game_layer" android:background="@drawable/play_detail_game_layer_background" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="46.0dip" android:layout_below="@id/play_channel_detail_toolbar_subscribe_layer">
+                    <ImageView android:id="@id/play_channel_detail_toolbar_game_icon" android:layout_width="26.0dip" android:layout_height="20.0dip" android:layout_marginLeft="14.0dip" android:layout_marginTop="13.0dip" android:src="@drawable/play_channel_detail_notify_game" />
+                    <TextView android:textSize="14.0dip" android:textColor="#ff404040" android:ellipsize="end" android:id="@id/play_channel_detail_toolbar_game_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="14.0dip" android:maxWidth="210.0dip" android:maxLines="1" android:includeFontPadding="false" />
+                    <TextView android:textSize="14.0dip" android:textColor="#ff404040" android:ellipsize="end" android:id="@id/play_channel_detail_toolbar_game_text_type" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="14.0dip" android:layout_marginRight="10.0dip" android:maxLines="1" android:includeFontPadding="false" android:layout_weight="1.0" />
+                </LinearLayout>
+                <FrameLayout android:id="@id/play_channel_detail_toolbar_subscribe_layer" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="79.0dip">
+                    <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/play_channel_detail_toolbar_subscribe_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+                        <CheckBox android:id="@id/play_channel_detail_toolbar_subscribe_button" android:background="@drawable/selector_channel_detail_subscribe" android:focusable="false" android:clickable="false" android:layout_width="150.0dip" android:layout_height="48.0dip" android:button="@null" app:buttonCompat="@null" />
+                    </FrameLayout>
+                </FrameLayout>
+            </com.nhn.android.webtoon.common.widget.CollapsingLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/play_channel_detail_list_swipe_refresh" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.naver.support.autoplay.AutoPlayRecyclerView android:id="@id/play_channel_detail_recyclerview" android:background="#ffeff0f1" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+            <ViewStub android:id="@id/play_channel_detail_network_error_layout_viewstub" android:layout="@layout/layout_network_error" android:inflatedId="@id/channel_list_network_error_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ViewStub android:id="@id/play_channel_detail_no_item_viewstub" android:layout="@layout/layout_play_channel_detail_no_item" android:inflatedId="@id/title_no_item_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </RelativeLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>

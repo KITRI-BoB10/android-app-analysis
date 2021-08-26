@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/list_item_white_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="76.0dip">
+        <CheckBox android:layout_gravity="center_vertical" android:id="@id/viewerEditCheckBox" android:background="@drawable/check_button" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.669983dip" android:layout_marginRight="10.669983dip" android:button="@android:color/transparent" />
+        <View android:background="@color/viewer_list_divider" android:layout_width="0.6700001dip" android:layout_height="fill_parent" />
+        <FrameLayout android:layout_width="54.0dip" android:layout_height="fill_parent">
+            <ImageView android:id="@id/viewerThumbnailImage" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/list_thumnail_dum" android:contentDescription="@null" />
+            <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/list_bookcover" android:scaleType="fitXY" android:contentDescription="@null" />
+        </FrameLayout>
+        <include android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" layout="@layout/viewer_list_item_2line" />
+    </LinearLayout>
+    <ImageView android:id="@id/viewerDividerLine" android:background="@color/viewer_list_divider" android:layout_width="fill_parent" android:layout_height="1.3399963dip" android:contentDescription="@null" />
+</LinearLayout>

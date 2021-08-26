@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:apps="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/framelayout_toonviewer_viewholder" android:layout_width="0.0dip" android:layout_height="0.0dip" apps:layout_constraintBottom_toBottomOf="parent" apps:layout_constraintEnd_toEndOf="parent" apps:layout_constraintStart_toStartOf="parent" apps:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/imageview_toonviewer_reload" android:background="@drawable/toonviewer_contentsload_background" android:padding="12.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_toonviewer_contentsreload" android:contentDescription="loading image button" apps:layout_constraintBottom_toBottomOf="parent" apps:layout_constraintEnd_toEndOf="parent" apps:layout_constraintHorizontal_bias="0.5" apps:layout_constraintStart_toStartOf="parent" apps:layout_constraintTop_toTopOf="parent" apps:layout_constraintVertical_bias="0.125" />
+</merge>

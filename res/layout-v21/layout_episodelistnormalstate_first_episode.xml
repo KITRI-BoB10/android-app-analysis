@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:tag="layout/layout_episodelistnormalstate_first_episode_0" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="49.0dip" app:layout_constraintBottom_toBottomOf="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <de.hdodenhof.circleimageview.CircleImageView android:layout_gravity="center_vertical" android:tag="binding_1" android:layout_width="35.0dip" android:layout_height="35.0dip" android:scaleType="centerCrop" android:layout_marginStart="15.0dip" android:layout_marginEnd="9.0dip" />
+    <TextView android:textSize="13.5sp" android:textStyle="bold" android:textColor="#ffffffff" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/recommend_finish_menu_show_first_episode" android:letterSpacing="-0.02" />
+    <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4.0dip" android:src="@drawable/img_firstepisode_dot" />
+    <TextView android:textSize="13.5sp" android:textColor="#ffffffff" android:layout_gravity="center_vertical" android:tag="binding_2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" android:lineSpacingExtra="0.0sp" android:layout_marginEnd="8.0dip" android:letterSpacing="-0.02" />
+    <ImageView android:layout_width="39.0dip" android:layout_height="fill_parent" android:src="@drawable/btn_normalstate_first_right_arrow" />
+</LinearLayout>

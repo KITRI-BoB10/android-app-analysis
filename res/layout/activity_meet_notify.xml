@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/meet_notify_background" android:layout_width="280.0dip" android:layout_height="220.0dip" android:layout_centerInParent="true">
+        <FrameLayout android:id="@id/meet_notify_sender_image_layout" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_marginLeft="14.0dip" android:layout_marginTop="12.0dip">
+            <ImageView android:id="@id/meet_notify_sender_image" android:layout_width="35.0dip" android:layout_height="35.0dip" android:src="@drawable/ar_meet_push_sender" />
+            <ImageView android:layout_gravity="center" android:layout_width="34.0dip" android:layout_height="34.0dip" android:src="@drawable/ar_meet_push_sender_border" />
+        </FrameLayout>
+        <TextView android:textSize="15.0sp" android:textColor="#ff606060" android:gravity="center_horizontal" android:id="@id/meet_notify_sender_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_marginTop="23.0dip" android:includeFontPadding="false" android:layout_toRightOf="@id/meet_notify_sender_image_layout" android:lineSpacingExtra="0.0sp" />
+        <ImageView android:id="@id/meet_notify_close" android:padding="10.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="6.0dip" android:src="@drawable/ar_meet_close_notify" android:layout_alignParentRight="true" />
+        <View android:background="#14000000" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="60.0dip" />
+        <TextView android:textSize="18.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/meet_notify_content" android:layout_width="fill_parent" android:layout_height="109.0dip" android:layout_marginTop="61.0dip" android:lineSpacingExtra="5.0sp" />
+        <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/meet_notify_view_button" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="@string/ar_meet_notify_button_text" android:includeFontPadding="false" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</RelativeLayout>

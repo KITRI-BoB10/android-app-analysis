@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/StarScoreImageView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/StarScoreImageView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/StarScoreImageView03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/StarScoreImageView04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/StarScoreImageView05" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" />
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fff8f8f8" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.nhn.android.webtoon.common.widget.WebtoonToolbar android:id="@id/temporary_save_toolbar" android:layout_width="fill_parent" android:layout_height="@dimen/action_bar_height" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.nhn.android.webtoon.episode.list.widget.ContentThumbnailView android:id="@id/ThumbnailView" android:layout_width="90.0dip" android:layout_height="60.0dip" />
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.5dip" android:layout_marginRight="6.669983dip">
+                <TextView android:textSize="15.0sp" android:typeface="sans" android:textColor="#ff151515" android:id="@id/TitleTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:background="#809d9d9d" android:layout_width="fill_parent" android:layout_height="@dimen/thin_line" />
+        <com.nhn.android.webtoon.temp.widget.DownloadWebtoonProgressView android:id="@id/temporary_save_progress_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:background="#4d9d9d9d" android:layout_width="fill_parent" android:layout_height="@dimen/thin_line" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="47.0dip">
+                <TextView android:textSize="12.0sp" android:typeface="sans" android:textColor="#ff151515" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="4.0dip" android:text="@string/temp_save_info_network_warning" />
+                <TextView android:textSize="12.0sp" android:typeface="sans" android:textColor="#ff03be08" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="4.0dip" android:text="@string/temp_save_info_sdcard_warning" />
+            </LinearLayout>
+            <TextView android:textSize="14.0sp" android:typeface="sans" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/temporary_save_cancel_text" android:background="@drawable/selector_gray_negative_btn" android:layout_width="fill_parent" android:layout_height="44.0dip" android:text="@string/cancel" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

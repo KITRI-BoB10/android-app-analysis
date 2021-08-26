@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/webview_error_layout" android:background="#ffffffff" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:background="@drawable/a_icon_networkerror" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ff8e8e8e" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/store_network_loading_error" android:singleLine="false" />
+    <Button android:textSize="14.0sp" android:textColor="@drawable/selector_store_text_color" android:id="@id/retry_button" android:background="@drawable/selector_store_btn_refresh" android:layout_width="124.0dip" android:layout_height="38.0dip" android:layout_marginTop="26.0dip" android:text="@string/store_network_err_btn_text" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/bookmark_image" android:layout_width="40.0px" android:layout_height="40.0px" android:src="@drawable/icon" android:scaleType="fitXY" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="15.0sp" android:textColor="#ff000000" android:ellipsize="marquee" android:id="@id/bookmark_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@id/TextView02" android:maxLines="1" />
+        <TextView android:textSize="15.0sp" android:textColor="#ff000000" android:id="@id/bookmark_date" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@id/TextView02" />
+    </LinearLayout>
+</LinearLayout>

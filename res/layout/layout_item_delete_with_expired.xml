@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="44.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0sp" android:typeface="sans" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/item_delete_text" android:background="@drawable/selector_gray_negative_btn" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/delete" android:layout_weight="1.0" />
+    <TextView android:textSize="15.0sp" android:typeface="sans" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/item_delete_all_text" android:background="@drawable/selector_green_positive_btn" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/deleteAll" android:layout_weight="1.0" />
+    <View android:background="#ff1bb520" android:layout_width="@dimen/thin_line" android:layout_height="fill_parent" />
+    <TextView android:textSize="15.0sp" android:typeface="sans" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/item_delete_expired_text" android:background="@drawable/selector_green_positive_btn" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/deleteExpiredAll" android:layout_weight="1.0" />
+</LinearLayout>

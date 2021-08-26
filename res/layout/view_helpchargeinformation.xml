@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/view_helpchargeinformation_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="19.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="12.0sp" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.5dip" android:layout_marginBottom="5.5dip" android:text="@string/episode_charge_info_price" android:lineSpacingExtra="6.0sp" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.5dip">
+            <TextView android:textSize="11.5sp" android:textColor="#ff666666" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/episode_charge_info_lend" android:lineSpacingExtra="8.0sp" />
+            <TextView android:textSize="11.5sp" android:textColor="#ff00dc64" android:id="@id/price_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:lineSpacingExtra="8.0sp" />
+        </LinearLayout>
+        <TextView android:textSize="12.0sp" android:textColor="#ff010101" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.5dip" android:text="@string/episode_charge_info_use" android:lineSpacingExtra="6.0sp" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.5dip" android:layout_marginRight="5.0dip" android:src="@drawable/charge_footer_oval" />
+        <TextView android:textSize="11.5sp" android:textColor="#ff666666" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/charge_info_footer_detail_1" android:lineSpacingExtra="3.0sp" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.5dip" android:layout_marginRight="5.0dip" android:src="@drawable/charge_footer_oval" />
+        <TextView android:textSize="11.5sp" android:textColor="#ff666666" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/charge_info_footer_detail_2" android:lineSpacingExtra="3.0sp" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.5dip" android:layout_marginRight="5.0dip" android:src="@drawable/charge_footer_oval" />
+        <TextView android:textSize="11.5sp" android:textColor="#ff666666" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/charge_info_footer_detail_3" android:lineSpacingExtra="3.0sp" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.5dip" android:layout_marginRight="5.0dip" android:src="@drawable/charge_footer_oval" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="11.5sp" android:textColor="#ff666666" android:id="@id/charge_info_footer_refund_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/charge_info_footer_detail_4" android:lineSpacingExtra="3.0sp" />
+            <TextView android:textSize="11.5sp" android:textColor="#ff666666" android:id="@id/charge_info_footer_link_refund_policy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/charge_info_footer_link_refund_policy" android:lineSpacingExtra="3.0sp" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.5dip" android:layout_marginRight="5.0dip" android:src="@drawable/charge_footer_oval" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="11.5sp" android:textColor="#ff666666" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/charge_info_footer_detail_5" android:lineSpacingExtra="3.0sp" />
+            <TextView android:textSize="11.5sp" android:textColor="#ff666666" android:id="@id/charge_info_footer_link_cooky_terms_of_use" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/charge_info_footer_link_cooky_terms_of_use" android:lineSpacingExtra="3.0sp" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.5dip" android:layout_marginRight="5.0dip" android:src="@drawable/charge_footer_oval" />
+        <TextView android:textSize="11.5sp" android:textColor="#ff666666" android:id="@id/charge_info_footer_cooky_shop_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/charge_info_footer_detail_6" android:lineSpacingExtra="3.0sp" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.5dip" android:layout_marginRight="5.0dip" android:src="@drawable/charge_footer_oval" />
+        <TextView android:textSize="11.5sp" android:textColor="#ff666666" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/charge_info_footer_detail_7" android:lineSpacingExtra="3.0sp" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.5dip" android:layout_marginRight="5.0dip" android:src="@drawable/charge_footer_oval" />
+        <TextView android:textSize="11.5sp" android:textColor="#ff666666" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/charge_info_footer_detail_8" android:lineSpacingExtra="3.0sp" />
+    </LinearLayout>
+</LinearLayout>

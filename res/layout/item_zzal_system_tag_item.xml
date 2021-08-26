@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/item_zzal_system_tag_item_layout" android:layout_width="wrap_content" android:layout_height="90.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.nhn.android.webtoon.common.widget.RatioImageView android:id="@id/item_zzal_system_tag_item_thumbnail" android:layout_width="90.0dip" android:layout_height="90.0dip" android:foreground="@drawable/gz_circle_over_image" android:scaleType="centerCrop" app:ratio_x="90" app:ratio_y="90" />
+    <TextView android:textSize="13.0sp" android:typeface="sans" android:textStyle="bold" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="center" android:id="@id/item_zzal_system_tag_item_tag_text" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="90.0dip" android:layout_height="90.0dip" android:maxLines="2" />
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/play_movie_viewer_layout" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.nhn.android.webtoon.play.common.widget.LoggingVideoViewer android:id="@id/play_movie_player_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/play_movie_viewer_refreshable_error_viewstub" android:layout="@layout/layout_play_movie_error_refreshable" android:inflatedId="@id/play_movie_viewer_timeout_error" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/play_movie_viewer_error_viewstub" android:layout="@layout/layout_play_movie_error" android:inflatedId="@id/play_movie_viewer_error" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

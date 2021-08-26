@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/constraintlayout_root" android:tag="layout/layout_popupmenudialog_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/cardview_holder" android:background="@drawable/comment_more_popup" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/linearlayout_buttonbox" android:background="#ffffffff" android:layout_width="108.0dip" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

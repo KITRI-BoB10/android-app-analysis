@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:gravity="center|left" android:paddingLeft="@dimen/nloginresource_common_inputbox_padding_left" android:paddingRight="@dimen/nloginresource_common_inputbox_padding_right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cursorVisible="true" android:singleLine="true" style="@style/nloginresource_common_editview_style_txtfield" />
+    <ImageButton android:id="@id/nloginresource_editview_clear_btn" android:background="@android:color/transparent" android:padding="@dimen/nloginresource_common_inputbox_button_margin_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/nloginresource_btn_x_2x" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

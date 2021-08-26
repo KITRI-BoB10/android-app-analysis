@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.naver.webtoon.widget.RoundCornerConstraintLayout android:tag="layout/item_recommendfinishcookieovencomponent_0" android:background="#ffffb302" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:layout_marginStart="@dimen/recommend_finish_title_list_size_padding" android:layout_marginEnd="@dimen/recommend_finish_title_list_size_padding" app:cornerRadius="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cookie_oven_component" android:contentDescription="@string/contentdescription_recommendfinish_cookie_oven_banner" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</com.naver.webtoon.widget.RoundCornerConstraintLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Select Epub file in SDCARD" />
+    <Spinner android:id="@id/epub_file_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawSelectorOnTop="true" android:prompt="@string/epub_file_spinner_prompt" />
+    <Button android:id="@id/epub_file_spinner_confirm_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Submit" />
+    <Button android:id="@id/latest_content_go_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="최근에 읽었던 페이지로 가기" />
+</LinearLayout>

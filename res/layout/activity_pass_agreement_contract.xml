@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="#ff00b358" android:layout_width="fill_parent" android:layout_height="55.0dip">
+        <Button android:id="@id/back_btn" android:background="@drawable/v2_title_bar_back_btn" android:layout_width="24.0dip" android:layout_height="20.0dip" android:layout_marginLeft="21.0dip" android:layout_marginTop="18.0dip" android:layout_marginBottom="17.0dip" android:onClick="executeFinish" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="58.0dip" android:layout_marginTop="14.0dip" android:maxLines="1" />
+    </RelativeLayout>
+    <ViewStub android:id="@id/network_error_viewstub" android:layout="@layout/layout_network_error_in_webview" android:inflatedId="@id/network_error_viewstub_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="13.0sp" android:textColor="#ff000000" android:id="@id/term_of_use" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="7.0sp" />
+    </ScrollView>
+</LinearLayout>

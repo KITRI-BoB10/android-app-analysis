@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/fragment_my_cookie_shop_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center" android:id="@id/my_cookie_shop_web_view_holder" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:id="@id/my_cookie_shop_login_layout" layout="@layout/view_stub_my_login" />
+</FrameLayout>

@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.1//EN' 'http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd'>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <head>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width; height=device-height; initial-scale=1.0; maximum-scale=1.0; user-scalable=0; target-densitydpi=medium-dpi"/>
+    <meta http-equiv="Content-Type" content="text/htmlcharset=utf-8"/>
+    <title>naver epub</title>
+    <link rel="stylesheet" type="text/css" href="js/book.css"/>
+  </head>
+  <body leftmargin="0">
+  <div style=" position: relative; height:400px; width:450px; background-color:white; font-color:black;" id="bookframe">
+  	<div id="rcontainer_0" style="position: absolute; width: 100%; height: 100%; -webkit-user-select:none; -webkit-text-size-adjust:none;">
+		<div id="rpage_0" style="position: absolute; top: 0pt; left: 0pt; bottom: 0pt; right: 0pt; background:none repeat scroll 0 0; cursor: pointer; z-index: 1;">
+			<div id="rscrollerdiv_0" style="position: absolute; top: 1em; bottom: 1em; left: 1em; right: 1em; overflow: hidden;">
+				<div id="rcontentdiv_0" style="font-size:[[FONT_SIZE]] ;text-align:justify; position: absolute; top: 0pt; bottom: 0pt; min-width: 200%;-webkit-column-gap:0;-webkit-column-fill: auto; -webkit-text-size-adjust: none;-moz-column-gap:0;-moz-column-fill: auto;">
+					[d2r ePub Engin Value]
+				</div>
+			</div>
+		</div>
+	</div>
+	
+  </div>
+
+	<script src="js/epub.js"></script>
+	<script>
+	
+	function ebook_loaded(){
+		//setTimeout(function(){
+			arrayP = epub.getCacheParagraph();
+			epub.calculateParagraphPosition();
+			epub.goPageUsingElementWithoutTotalPage(arrayP[[[pIndex]]]);
+			epub.calculateTotalPage();
+			epub.sendPageInfoToAndroidApp();
+			setTimeout(function(){
+				window.AndroidApp.goPageFinished();
+			}, 100);
+		//}, 30);	//frome the test of galaxyS, in 20ms renderer drawing is complete.
+	}  
+	
+	function goPage(p) {
+		epub.goPage(p);
+		setTimeout(function(){
+			window.AndroidApp.goPageFinished();
+		}, 100);	//if page is more than 60page, 100ms is neccessary to change page.
+	}
+	
+	function setInit() {
+		epub.init("bookframe", "rscrollerdiv_0", "rcontentdiv_0");
+		epub.initset([[WIDTH]],[[HEIGHT]]);
+		[[COLOR]]
+	}
+ 	setInit();
+ 	
+  </script>
+  </body>
+</html>

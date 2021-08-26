@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="nloginresource_signin_font_style_findandjoin_text">
+        <item name="android:textSize">@dimen/nloginresource_findandjoin_fontsize</item>
+        <item name="android:textColor">#ff8e8e8e</item>
+    </style>
+</resources>

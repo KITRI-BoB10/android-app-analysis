@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/layout_viewer_cut_seek_bar_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/seekbar_container" android:tag="binding_1" android:background="#ff383b44" android:layout_width="fill_parent" android:layout_height="@dimen/viewer_seek_bar_height">
+        <SeekBar android:id="@id/seekbar_viewer_cuttoon" android:tag="binding_2" android:layout_width="0.0dip" android:layout_height="fill_parent" android:maxHeight="32.5dip" android:progressDrawable="@drawable/progress_viewer_cutseekbar" android:thumb="@drawable/button_viewer_navigationseekbar" android:thumbOffset="0.0dip" android:layout_weight="1.0" />
+        <TextView android:textSize="16.0dip" android:textStyle="normal" android:textColor="@color/white" android:gravity="end|center" android:id="@id/textview_cut_index" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="fill_parent" android:includeFontPadding="false" android:fontFamily="sans-serif" />
+        <TextView android:textSize="16.0dip" android:textStyle="normal" android:textColor="@color/white_opa50" android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:text="/" android:includeFontPadding="false" android:fontFamily="sans-serif" />
+        <TextView android:textSize="16.0dip" android:textStyle="normal" android:textColor="@color/white_opa50" android:gravity="center" android:tag="binding_4" android:layout_width="wrap_content" android:layout_height="fill_parent" android:ems="1" android:includeFontPadding="false" android:fontFamily="sans-serif" android:layout_marginEnd="16.0dip" />
+    </LinearLayout>
+</FrameLayout>

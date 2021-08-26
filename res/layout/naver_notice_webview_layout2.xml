@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/progress_bar" android:layout_width="fill_parent" android:layout_height="5.0dip" android:max="100" android:progressDrawable="@drawable/naver_notice_webview_progressbar" android:layout_weight="0.0" style="?android:progressBarStyleHorizontal" />
+    <FrameLayout android:id="@id/web_holder" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <RelativeLayout android:id="@id/navernotice_webview_eventlayout" android:background="@drawable/naver_notice_bg_promotion" android:layout_width="fill_parent" android:layout_height="42.669983dip" android:layout_weight="0.0" android:layout_alignParentBottom="true">
+        <Button android:textSize="16.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/notice_promotion_text" android:background="@drawable/naver_notice_selector_close_btn" android:layout_width="172.0dip" android:layout_height="38.0dip" android:layout_marginLeft="35.329987dip" android:layout_marginTop="3.3299866dip" android:layout_marginBottom="2.0dip" android:text="@string/notice_promotion_text" android:layout_alignParentLeft="true" />
+        <Button android:textSize="15.0sp" android:textColor="#ffffffff" android:id="@id/notice_close" android:background="@drawable/naver_notice_selector_close_btn" android:layout_width="68.0dip" android:layout_height="38.0dip" android:layout_marginTop="3.3299866dip" android:layout_marginRight="35.329987dip" android:layout_marginBottom="2.0dip" android:text="@string/notice_close" />
+    </RelativeLayout>
+</LinearLayout>

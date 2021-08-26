@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/pop_up_layout" android:tag="layout/viewer_end_page_view_with_container_0" android:background="@drawable/pocket_viewer_end_popup_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="310.0dip" android:layout_centerInParent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="right" android:id="@id/close_btn" android:tag="binding_1" android:paddingTop="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pocket_viewer_end_popup_close" android:contentDescription="@null" android:paddingStart="14.0dip" android:paddingEnd="14.0dip" />
+    <RelativeLayout android:gravity="center" android:id="@id/content_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <View android:background="#ffe0e0e0" android:layout_width="fill_parent" android:layout_height="@dimen/thin_line" />
+        <TextView android:textSize="15.0sp" android:textColor="#ff666666" android:ellipsize="end" android:gravity="center" android:id="@id/back_btn" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/back_webtoon_home" android:singleLine="true" android:drawableRight="@drawable/pocket_viewer_end_popup_move" android:drawablePadding="1.0dip" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:lineSpacingExtra="0.0sp" />
+    </RelativeLayout>
+</LinearLayout>

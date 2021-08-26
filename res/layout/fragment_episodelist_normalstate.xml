@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/fragment_episodelist_normalstate_0" android:background="#ff777777" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:background="#ff777777" android:fitsSystemWindows="true" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.naver.webtoon.widget.OffsetAdjustAppBarLayout android:id="@id/appbar_episodelist" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip">
+            <com.google.android.material.appbar.CollapsingToolbarLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="exitUntilCollapsed|scroll">
+                <LinearLayout android:orientation="vertical" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="@dimen/action_bar_height" app:layout_scrollFlags="exitUntilCollapsed|scroll">
+                    <FrameLayout android:id="@id/fragment_episodelist_cardviewholder" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <View android:id="@id/view_episodelist_background" android:tag="binding_3" android:layout_width="fill_parent" android:layout_height="101.0dip" />
+                        <androidx.fragment.app.FragmentContainerView android:name="com.naver.webtoon.episode.list.normal.info.EpisodeCardViewFragment" android:id="@id/fragment_episodelist_cardview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" />
+                        <include layout="@layout/layout_episodelist_illust_favorit" />
+                    </FrameLayout>
+                    <include layout="@layout/layout_episodelist_appbar_episode_info" />
+                    <com.naver.webtoon.widget.RoundCornerConstraintLayout android:id="@id/layout_episodelist_banners" android:tag="binding_4" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginBottom="9.0dip" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip" app:cornerRadius="4.0dip">
+                        <com.naver.webtoon.widget.loop.page.LoopRecyclerView android:id="@id/view_episodelist_banner" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                    </com.naver.webtoon.widget.RoundCornerConstraintLayout>
+                    <include layout="@layout/layout_episodelist_notice" />
+                    <include layout="@layout/layout_episodelist_storelink" />
+                    <View android:background="#ffe0e0e0" android:layout_width="fill_parent" android:layout_height="@dimen/thin_line" />
+                </LinearLayout>
+                <androidx.appcompat.widget.Toolbar android:id="@id/toolbar_episodelist" android:tag="binding_5" android:layout_width="fill_parent" android:layout_height="@dimen/action_bar_height" app:layout_collapseMode="pin">
+                    <androidx.constraintlayout.widget.ConstraintLayout android:tag="binding_6" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <ImageView android:id="@id/btn_episodelisttoolbar_up" android:tag="binding_7" android:layout_width="40.0dip" android:layout_height="0.0dip" android:contentDescription="@string/contentdescription_recommendfinish_up" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                        <LinearLayout android:orientation="horizontal" android:id="@id/space_title" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toRightOf="@id/btn_episodelisttoolbar_up" app:layout_constraintRight_toLeftOf="@id/layout_episode_favoriteandbell" app:layout_constraintTop_toTopOf="parent">
+                            <com.naver.webtoon.common.widget.MarqueeTextView android:textSize="17.0sp" android:layout_gravity="center_vertical" android:id="@id/text_episodelist_appbar_title" android:tag="binding_8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:lineSpacingExtra="1.0dip" />
+                        </LinearLayout>
+                        <include android:id="@id/layout_episode_favoriteandbell" android:layout_width="wrap_content" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="1.0" app:layout_constraintLeft_toRightOf="@id/space_title" app:layout_constraintRight_toLeftOf="@id/imageview_moreview" app:layout_constraintTop_toTopOf="parent" layout="@layout/layout_episodelist_toolbarfavoriteandbell" />
+                        <ImageView android:id="@id/imageview_moreview" android:tag="binding_9" android:layout_width="33.0dip" android:layout_height="0.0dip" android:contentDescription="@string/contentdescription_recommendfinish_more" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="1.0" app:layout_constraintLeft_toRightOf="@id/layout_episode_favoriteandbell" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                        <View android:id="@id/border_episodelist_cardview_bottom" android:tag="binding_10" android:background="#ffe0e0e0" android:layout_width="0.0dip" android:layout_height="0.5dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="1.0" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.appcompat.widget.Toolbar>
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+            <ViewStub android:id="@id/viewstub_normalstate_remaintimebar" android:layout="@layout/layout_fragmentepisodelistnormal_remaintimebar" android:inflatedId="@id/viewstub_normalstate_remaintimebar_inflated" android:layout_width="fill_parent" android:layout_height="50.0dip" />
+        </com.naver.webtoon.widget.OffsetAdjustAppBarLayout>
+        <androidx.fragment.app.FragmentContainerView android:name="com.naver.webtoon.episode.list.normal.list.EpisodeListFragment" android:id="@id/fragment_episodelist" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <include android:id="@id/btn_normalstate_first_episode" layout="@layout/layout_episodelistnormalstate_first_episode" />
+    <com.naver.webtoon.episode.list.normal.RecommendFinishFavoriteCoachAlertView android:id="@id/view_recommendfinish_favorite_alert" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

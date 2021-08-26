@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/linearlayout_events_imageandtitle_title" android:tag="layout/item_events_imageandtitle_title_layer_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="215.0dip" android:paddingStart="@dimen/title_event_item_offset_start" android:paddingEnd="@dimen/title_event_item_offset_end"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

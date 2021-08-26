@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/activity_my_cookie_shop_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/my_cookie_shop_toolbar" android:background="@color/white" android:layout_width="0.0dip" android:layout_height="44.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:id="@id/my_cookie_shop_pre" android:layout_width="40.0dip" android:layout_height="44.0dip" android:src="@drawable/icon_toolbar_up_black" android:scaleType="center" />
+        <TextView android:textSize="17.0dip" android:textColor="@color/black" android:layout_gravity="center_vertical" android:id="@id/my_cookie_shop_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cookie_shop" android:includeFontPadding="false" android:lineSpacingExtra="3.0dip" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/my_cookie_shop_fragment_holder" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/my_cookie_shop_toolbar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

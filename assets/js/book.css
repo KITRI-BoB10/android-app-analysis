@@ -1,0 +1,76 @@
+body {
+	margin:0px;
+	padding:0px;
+	overflow: hidden;
+}
+h1 {font-size: 1.4em;}
+h2 {font-size: 1.2em;}
+h3 {font-size: 1.1em;}
+p {font-size: 1.0em;}
+
+#rcontentdiv_0 div {
+	font-size: 1.0em;
+}
+
+#bookframe {
+	margin:0px;
+	padding:0px;
+	width: 100%; 
+	height: 100%;
+	border: 0px solid red;
+	background: #ffffff;
+	overflow: hidden;
+}
+
+#bookframe .epu {
+	text-indent: 0.8em;
+	line-height: 180%;
+}
+
+#bookframe p {
+	padding-top:0.05em;
+	text-indent: 0.8em;
+}
+
+#bookframe div.epu {
+	padding-top: 1.0em;
+}
+
+#bookframe div.w_epu {
+	padding-top: 1.0em;
+	text-indent: 0.8em;
+}
+
+#bookframe span {
+	line-height: 180%;
+}
+
+#bookframe img {
+	max-width: 90%;
+	max-height: 90%;
+	-webkit-column-break-before: always;
+}
+#bookframe .dedication {
+	text-align: center;
+	font-style: italic;
+	___margin: 16em 0 10em;
+}
+#bookframe .center {
+	text-align: center;
+}
+#bookframe h1, #bookframe h2, #bookframe h3 {
+	text-align: center;
+	text-indent: 0em;
+}
+#bookframe h1 small {
+	font-size: 85%;
+	font-variant: small-caps;
+}
+#bookframe h2 {
+	margin-bottom: 3em;
+	font-weight: bold
+}
+#bookframe h2 small {
+	font-size: 85%;
+	font-style: italic;
+}

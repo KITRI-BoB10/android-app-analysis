@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/title_tab_category_new"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="@color/selector_daily_newtab_text_color" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/title_tab_category_new" android:includeFontPadding="false" android:shadowColor="@android:color/black" android:layout_marginStart="13.5dip" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.5dip" android:src="@drawable/selector_daily_newtab_icon" android:scaleType="centerInside" android:layout_marginStart="2.5dip" />
+    <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/thin_line" android:layout_height="17.5dip" android:src="@drawable/selector_daily_newtab_division_line" android:layout_marginStart="13.5dip" />
+</LinearLayout>

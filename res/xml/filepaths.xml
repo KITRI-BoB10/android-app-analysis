@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <external-path name="tempimage" path="Android/data/com.nhn.android.webtoon/cache/temp/" />
+    <external-path name="zzalimage" path="Pictures/NaverWebtoon/" />
+    <external-path name="share" path="Android/data/com.nhn.android.webtoon/files/title_meet/" />
+    <files-path name="titlemeetshare" path="title_meet/share/" />
+</paths>

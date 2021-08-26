@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/zzal_swipe_type_item_layout" android:background="#ffffffff" android:layout_width="wrap_content" android:layout_height="239.0dip" android:maxWidth="260.0dip" android:minWidth="150.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.nhn.android.webtoon.common.widget.RatioHorizontalImageView android:id="@id/zzal_swipe_type_item_image" android:layout_width="wrap_content" android:layout_height="200.0dip" android:foreground="@drawable/gz_detail_item_image_view_foreground" android:scaleType="centerCrop" android:maxWidth="260.0dip" android:maxHeight="200.0dip" android:minWidth="150.0dip" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="39.0dip">
+        <TextView android:textSize="13.0sp" android:typeface="sans" android:textColor="#ff222222" android:ellipsize="end" android:id="@id/zzal_swipe_type_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:maxLines="1" android:includeFontPadding="false" android:layout_toLeftOf="@id/zzal_swipe_type_item_like_icon" android:layout_alignParentLeft="true" />
+        <ImageView android:id="@id/zzal_swipe_type_item_like_icon" android:layout_width="13.0dip" android:layout_height="13.0dip" android:layout_marginLeft="4.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="2.0dip" android:src="@drawable/gz_ic_like_xs" android:layout_toLeftOf="@id/zzal_swipe_type_item_like_count" android:contentDescription="@string/contentdescription_zzal_like" />
+        <TextView android:textSize="11.0sp" android:typeface="sans" android:textColor="#ffbac0cd" android:id="@id/zzal_swipe_type_item_like_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="9999+" android:includeFontPadding="false" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</LinearLayout>

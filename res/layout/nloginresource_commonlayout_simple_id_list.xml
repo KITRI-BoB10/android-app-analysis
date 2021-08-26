@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/nloginglobal_simple_id_managing_list_ok" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/nloginresource_simple_signin_margin_view" android:layout_width="fill_parent" android:layout_height="@dimen/nloginresource_simpleidlist_description_margin_top" />
+    <TextView android:textSize="@dimen/nloginresource_simplelogin_top_desc_fontsize" android:textColor="#ff333333" android:id="@id/nloginglobal_simple_signin_tv_signin_desc" android:paddingLeft="@dimen/nloginresource_simplelogin_top_desc_padding_left" android:paddingRight="@dimen/nloginresource_simplelogin_top_desc_padding_right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/nloginresource_simplelogin_top_desc_margin_bottom" android:text="@string/nid_simple_id_description" android:lineSpacingExtra="@dimen/nloginresource_simplelogin_top_desc_font_linespacing" />
+    <ListView android:id="@id/nloginglobal_simple_id_managing_list" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scrollingCache="false" android:divider="@android:color/transparent" android:dividerHeight="0.0dip" />
+    <ImageView android:background="@drawable/nloginresource_table_line" android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@string/nloginresource_img_description_line_img" />
+</LinearLayout>

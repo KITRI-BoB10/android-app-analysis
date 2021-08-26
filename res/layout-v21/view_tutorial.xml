@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="#e6020000" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/view_prepare" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxHeight="571.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <View android:layout_width="fill_parent" android:layout_height="72.0dip" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/view_popup" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/img_cookieoven_popup" android:scaleType="fitCenter" android:maxHeight="320.5dip" android:layout_weight="1.0" />
+        <co.adison.cookieoven.webtoon.ui.DrawableAlignedButton android:textSize="17.0sp" android:textColor="#ffffffff" android:id="@id/btn_submit" android:background="@drawable/btn_tutorial" android:paddingLeft="60.0dip" android:paddingRight="60.0dip" android:layout_width="200.0dip" android:layout_height="47.0dip" android:layout_marginTop="31.5dip" android:text="시작하기" android:drawableRight="@drawable/ico_cookieoven_popup_arrow" android:drawablePadding="5.5dip" android:letterSpacing="-0.02" />
+        <View android:layout_width="fill_parent" android:layout_height="72.0dip" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

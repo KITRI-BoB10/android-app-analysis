@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/activity_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="@dimen/nloginresource_outerbox_padding_left" android:paddingRight="@dimen/nloginresource_outerbox_padding_right" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.nhn.android.login.ui.view.NLoginTabletTitleView android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.nhn.android.login.ui.view.NLoginTabletMaxWidthLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minWidth="@dimen/nloginresource_innerbox_minwidth" nlogintablet_maxwidth_linearlayout:nloginattr_max_width="@dimen/nloginresource_innerbox_maxwidth" xmlns:nlogintablet_maxwidth_linearlayout="http://schemas.android.com/apk/res-auto">
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/nloginresource_otnlogin_view_title_margin_top">
+                    <TextView android:id="@id/nloginresource_otn_view_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nloginglobal_otn_login_number_title" android:layout_centerInParent="true" style="@style/nloginresource_font_style_content_title" />
+                    <LinearLayout android:id="@id/nloginglobal_otn_view_btn_help" android:paddingTop="@dimen/nloginresource_otnlogin_view_help_btn_padding_top" android:paddingBottom="@dimen/nloginresource_otnlogin_view_help_btn_padding_bottom" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nloginresource_otnlogin_view_help_btn_padding_left" android:layout_marginRight="@dimen/nloginresource_otnlogin_view_help_btn_padding_right" android:layout_toRightOf="@id/nloginresource_otn_view_title" android:layout_centerVertical="true" android:contentDescription="@string/nloginresource_img_description_otn_question_btn">
+                        <ImageView android:background="@drawable/nloginresource_btn_question_2x" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/nloginresource_otnlogin_view_number_margin_top">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                        <TextView android:id="@id/nloginglobal_otn_view_tv_content_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nloginglobal_otn_login_number_centent_1" style="@style/nloginresource_otn_font_style_content_number_box" />
+                        <TextView android:id="@id/nloginglobal_otn_view_tv_content_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/nloginglobal_otn_login_number_centent_2" style="@style/nloginresource_otn_font_style_content_number_box" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <ProgressBar android:layout_gravity="center_horizontal" android:id="@id/nloginglobal_otn_progress" android:layout_width="271.1953dip" android:layout_height="8.959991dip" android:layout_marginTop="@dimen/nloginresource_otnlogin_view_progress_margin_top" android:max="60" android:progress="0" android:progressDrawable="@drawable/nloginresource_otn_progress" style="?android:progressBarStyleHorizontal" />
+                <LinearLayout android:gravity="right" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="271.1953dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/nloginresource_otnlogin_view_remained_time_margin_top">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nloginglobal_otn_login_number_time_1" style="@style/nloginresource_otn_font_style_content_time" />
+                    <TextView android:id="@id/nloginglobal_otn_view_tv_expired_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/nloginglobal_otn_login_number_time_2" style="@style/nloginresource_otn_font_style_content_time" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nloginglobal_otn_login_number_time_3" style="@style/nloginresource_otn_font_style_content_time" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center_vertical" android:background="#ffdadada" android:layout_width="fill_parent" android:layout_height="1.1199951dip" android:layout_marginTop="@dimen/nloginresource_otnlogin_view_seperat_line_margin_top" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/nloginresource_otnlogin_view_bottom_content_margin_top">
+                <TextView android:textSize="15.0dip" android:textColor="#ff333333" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nloginglobal_otn_login_description_1" />
+                <TextView android:textSize="15.0dip" android:textStyle="bold" android:textColor="#ff08a600" android:id="@id/nloginglobal_otn_view_tv_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/nloginresource_otnlogin_view_between_text_margin_top" android:text="@string/nloginglobal_otn_login_description_2" />
+                <TextView android:textSize="15.0dip" android:textColor="#ff333333" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/nloginresource_otnlogin_view_between_text_margin_top" android:text="@string/nloginglobal_otn_login_description_3" />
+            </LinearLayout>
+            <com.nhn.android.login.ui.view.NLoginGlobalCopyrightView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        </com.nhn.android.login.ui.view.NLoginTabletMaxWidthLinearLayout>
+    </LinearLayout>
+</ScrollView>

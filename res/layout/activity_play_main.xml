@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/play_main_appbar_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip">
+            <com.nhn.android.webtoon.common.widget.CollapsingLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="enterAlways|scroll">
+                <com.google.android.material.tabs.TabLayout android:layout_gravity="top" android:id="@id/play_main_tablayer" android:background="@drawable/play_main_toolbar_background" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_below="@id/play_main_toolbar" app:paddingEnd="10.0dip" app:paddingStart="10.0dip" app:tabGravity="fill" app:tabIndicatorHeight="0.0dip" app:tabMaxWidth="0.0dip" app:tabMode="fixed" />
+                <androidx.appcompat.widget.Toolbar android:id="@id/play_main_toolbar" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/action_bar_height">
+                    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <LinearLayout android:orientation="horizontal" android:id="@id/layout_play_up" android:layout_width="wrap_content" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent">
+                            <ImageView android:layout_width="40.0dip" android:layout_height="44.0dip" android:src="@drawable/icon_toolbar_up_black" />
+                            <TextView android:textSize="17.5dip" android:textStyle="normal" android:textColor="@color/black" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/play_logo" android:includeFontPadding="false" android:lineSpacingExtra="4.5dip" android:fontFamily="sans-serif" />
+                        </LinearLayout>
+                        <ImageView android:layout_gravity="right" android:id="@id/play_main_toolbar_game_notice" android:visibility="gone" android:layout_width="65.0dip" android:layout_height="25.0dip" android:layout_marginTop="23.0dip" android:layout_marginRight="13.0dip" android:src="@drawable/play_main_game_notice" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.appcompat.widget.Toolbar>
+            </com.nhn.android.webtoon.common.widget.CollapsingLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.viewpager.widget.ViewPager android:id="@id/play_main_view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        <ImageView android:layout_gravity="bottom" android:id="@id/play_main_floating_banner" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="70.0dip" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>

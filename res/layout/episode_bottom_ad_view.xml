@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/episode_bottom_ad_view_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:tag="binding_1" android:background="#fff6f6f6" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+    <View android:tag="binding_2" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="50.0dip" />
+    <com.nhn.android.webtoon.episode.viewer.widget.ad.AdView android:orientation="vertical" android:id="@id/adview" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

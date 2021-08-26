@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/fragment_search_result_0" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layout_title_webtoon_result" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="41.0dip">
+            <TextView android:textSize="14.0dip" android:textColor="#ff000000" android:id="@id/title_result" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="18.0dip" android:includeFontPadding="false" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/list_searchresult" android:tag="binding_3" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    </LinearLayout>
+    <include android:id="@id/search_no_result" layout="@layout/layout_search_no_result" />
+    <include android:id="@id/layout_network_error" android:visibility="gone" layout="@layout/layout_network_error" />
+</androidx.constraintlayout.widget.ConstraintLayout>

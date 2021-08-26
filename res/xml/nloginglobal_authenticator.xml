@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<account-authenticator android:label="@string/nid_common_auth_name" android:icon="@drawable/nloginglobal_authenticator_icon_naver" android:accountType="com.nhn.android.naveraccount" android:smallIcon="@drawable/nloginglobal_authenticator_icon_naver"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

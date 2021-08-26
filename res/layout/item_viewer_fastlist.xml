@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="14.0sp" android:textStyle="normal" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/item_dialog_episode_textview" android:tag="layout/item_viewer_fastlist_0" android:paddingLeft="12.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/episode_list_popup_item_height" android:singleLine="true" android:lineSpacingExtra="-3.5999756sp" android:fontFamily="sans-serif"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

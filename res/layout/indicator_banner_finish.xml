@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:tag="layout/indicator_banner_finish_0" android:background="@drawable/background_indicator_recommendtitle" android:layout_width="wrap_content" android:layout_height="17.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="11.0sp" android:textStyle="normal" android:textColor="@color/white" android:gravity="center" android:id="@id/textview_indicator_current" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:lineSpacingExtra="0.0dip" android:fontFamily="sans-serif" android:paddingStart="0.5dip" android:layout_marginStart="6.0dip" />
+    <ImageView android:layout_width="7.0dip" android:layout_height="8.0dip" android:layout_marginLeft="0.5dip" android:layout_marginRight="0.5dip" android:src="@drawable/slash_banner_finish" android:contentDescription="@string/contentdescription_recommendfinish_split" />
+    <TextView android:textSize="11.0sp" android:textStyle="normal" android:textColor="#ffcccccc" android:gravity="center" android:id="@id/textview_indicator_max" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:lineSpacingExtra="0.0dip" android:fontFamily="sans-serif" android:paddingStart="0.5dip" android:layout_marginEnd="6.0dip" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="10.0dip" android:paddingTop="14.669983dip" android:paddingBottom="15.329987dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textStyle="normal" android:textColor="@color/viewer_list_main_text" android:gravity="center_vertical" android:id="@id/viewerListItem2lineMainTitle" android:layout_width="fill_parent" android:layout_height="24.669983dip" android:lines="1" />
+    <TextView android:textSize="11.329987sp" android:textColor="@color/list_sub_text" android:gravity="center_vertical" android:id="@id/viewerListItem2lineSubTitle" android:layout_width="fill_parent" android:layout_height="21.329987dip" android:lines="1" />
+</LinearLayout>

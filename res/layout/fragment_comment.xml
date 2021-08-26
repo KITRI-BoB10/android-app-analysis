@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/fragment_comment_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerview_comment" android:tag="binding_1" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    <TextView android:textSize="15.0sp" android:textColor="#ff999999" android:gravity="center" android:id="@id/text_comment_no_data" android:tag="binding_2" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="false" android:lineSpacingExtra="2.0dip" />
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.naver.webtoon.widget.layout.checkable.CheckableLinearLayout android:orientation="horizontal" android:tag="layout/item_fragment_episodelist_temp_0" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:checkableId="@id/checkbox_item_fragment_episodelisttemp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <CheckBox android:layout_gravity="center_vertical" android:id="@id/checkbox_item_fragment_episodelisttemp" android:tag="binding_1" android:background="@drawable/selector_checkbox_episodelist_temp" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_marginStart="15.0dip" app:buttonCompat="@null" />
+    <include layout="@layout/item_fragment_episodelist" />
+</com.naver.webtoon.widget.layout.checkable.CheckableLinearLayout>

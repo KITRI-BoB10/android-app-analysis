@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/my_webtoon_thumbnail" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/list_default" android:scaleType="centerCrop" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginStart="3.0dip">
+        <ImageView android:id="@id/my_webtoon_thumbnail_badge1" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginBottom="1.0dip" android:src="@drawable/badge_thumbnail_new" />
+        <ImageView android:id="@id/my_webtoon_thumbnail_badge2" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/badge_thumbnail_adult" android:layout_below="@id/my_webtoon_thumbnail_badge1" />
+    </RelativeLayout>
+    <ImageView android:id="@id/my_webtoon_best_webtoon_bage" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" />
+    <View android:background="#809d9d9d" android:layout_width="@dimen/thin_line" android:layout_height="wrap_content" android:layout_alignRight="@id/my_webtoon_thumbnail" android:layout_alignBottom="@id/my_webtoon_thumbnail" />
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/activity_read_info_migration_0" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/relativelayout_readinfomigration_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="360.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:id="@id/imageview_readinfomigration_close" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/read_info_migration_close" android:contentDescription="@string/contentdescription_read_info_migration_close" />
+    </RelativeLayout>
+    <ScrollView android:id="@id/scrollview_readinfomigration" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/relativelayout_readinfomigration_close">
+        <FrameLayout android:id="@id/framelayout_readinfomigration_container" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/imageview_readinfomigration_close" />
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

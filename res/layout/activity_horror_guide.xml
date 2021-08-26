@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ff000000" android:paddingBottom="30.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/horror_guide_bg" android:scaleType="fitCenter" />
+    <ImageView android:id="@id/horror_guide_guide_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="60.0dip" android:src="@drawable/horror_guide_text" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/horror_guide_camera_permission_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:src="@drawable/horror_guide_btn_1" android:layout_below="@id/horror_guide_guide_text" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/horror_guide_later_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/horror_guide_btn_2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

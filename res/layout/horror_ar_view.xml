@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.percentlayout.widget.PercentFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/ar_waiting" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_aspectRatio="56.229996%" app:layout_widthPercent="100.0%" />
+        <ImageView android:layout_gravity="center" android:id="@id/ar_first_action" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_aspectRatio="56.229996%" app:layout_widthPercent="100.0%" />
+        <ImageView android:layout_gravity="center" android:id="@id/ar_second_action" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_aspectRatio="56.229996%" app:layout_widthPercent="100.0%" />
+    </androidx.percentlayout.widget.PercentFrameLayout>
+    <FrameLayout android:id="@id/ar_arrow_container" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/ar_arrow" android:layout_width="600.0dip" android:layout_height="600.0dip" android:src="@drawable/img_red" android:scaleType="fitXY" />
+    </FrameLayout>
+</merge>

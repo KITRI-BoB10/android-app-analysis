@@ -1,0 +1,14 @@
+.class synthetic Lcom/naver/webtoon/m/c/e/c$a;
+.super Ljava/lang/Object;
+.source "RxJava2CallAdapterBuilder.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/naver/webtoon/m/c/e/c;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1008
+    name = null
+.end annotation

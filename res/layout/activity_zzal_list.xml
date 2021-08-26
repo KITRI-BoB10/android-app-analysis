@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/zzal_list_toolbar" layout="@layout/toolbar_zzal_list" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/zzal_list_fragment_holder" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:textAppearance="?android:textAppearanceMedium" android:layout_gravity="end|bottom|center" android:id="@id/zzal_list_btn_go_top" android:visibility="invisible" android:layout_width="46.0dip" android:layout_height="46.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="12.0dip" android:src="@drawable/zzal_btn_top" app:layout_behavior="com.nhn.android.webtoon.zzal.main.widget.ZZalTopButtonBehavior" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>

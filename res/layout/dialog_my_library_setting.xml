@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/dialog_layout" android:background="@drawable/bg_popup_wh" android:layout_width="312.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="51.0dip">
+        <RelativeLayout android:id="@id/dialog_close_layout" android:layout_width="38.0dip" android:layout_height="38.0dip" android:layout_marginTop="3.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+            <ImageView android:background="@drawable/selector_btn_popup_x" android:duplicateParentState="true" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <TextView android:textSize="18.0sp" android:textColor="#ff191c1c" android:gravity="center" android:id="@id/dialog_title_text" android:layout_width="236.0dip" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/see_option_setting" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <View android:background="@drawable/div_popup_title" android:layout_width="fill_parent" android:layout_height="0.6700001dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginLeft="13.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="#ff333333" android:gravity="center_vertical" android:layout_width="76.0dip" android:layout_height="fill_parent" android:text="@string/sort" />
+        <RadioGroup android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/dialog_sort_radio_group" android:layout_width="136.0dip" android:layout_height="fill_parent">
+            <RadioButton android:id="@id/dialog_sort_latest_radio_button" android:background="@drawable/selector_dialog_radio_btn_left" android:button="@null" android:text="@string/sort_latest" app:buttonCompat="@null" style="@style/dialog_setting_radio_button_style" />
+            <RadioButton android:id="@id/dialog_sort_abc_radio_button" android:background="@drawable/selector_dialog_radio_btn_right" android:button="@null" android:text="@string/sort_abc" app:buttonCompat="@null" style="@style/dialog_setting_radio_button_style" />
+        </RadioGroup>
+    </LinearLayout>
+    <View android:background="@drawable/div_popup_sub" android:layout_width="fill_parent" android:layout_height="0.6700001dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginLeft="13.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="#ff333333" android:gravity="center_vertical" android:layout_width="76.0dip" android:layout_height="fill_parent" android:text="@string/group_view" />
+        <RadioGroup android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/dialog_group_view_radio_group" android:layout_width="136.0dip" android:layout_height="fill_parent">
+            <RadioButton android:id="@id/dialog_group_view_on_radio_button" android:background="@drawable/selector_dialog_radio_btn_left" android:button="@null" android:text="@string/group_view_on" app:buttonCompat="@null" style="@style/dialog_setting_radio_button_style" />
+            <RadioButton android:id="@id/dialog_group_view_off_radio_button" android:background="@drawable/selector_dialog_radio_btn_right" android:button="@null" android:text="@string/group_view_off" app:buttonCompat="@null" style="@style/dialog_setting_radio_button_style" />
+        </RadioGroup>
+    </LinearLayout>
+    <View android:background="@drawable/div_popup_sub" android:layout_width="fill_parent" android:layout_height="0.6700001dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginLeft="13.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="#ff333333" android:gravity="center_vertical" android:layout_width="76.0dip" android:layout_height="fill_parent" android:text="@string/buy_lend" />
+        <RadioGroup android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/dialog_buy_lend_radio_group" android:layout_width="204.0dip" android:layout_height="fill_parent">
+            <RadioButton android:id="@id/dialog_buy_lend_radio_button" android:background="@drawable/selector_dialog_radio_btn_left" android:button="@null" android:text="@string/buy_lend" app:buttonCompat="@null" style="@style/dialog_setting_radio_button_style" />
+            <RadioButton android:id="@id/dialog_buy_radio_button" android:background="@drawable/selector_dialog_radio_btn_center" android:button="@null" android:text="@string/buy" app:buttonCompat="@null" style="@style/dialog_setting_radio_button_style" />
+            <RadioButton android:id="@id/dialog_lend_radio_button" android:background="@drawable/selector_dialog_radio_btn_right" android:button="@null" android:text="@string/lend" app:buttonCompat="@null" style="@style/dialog_setting_radio_button_style" />
+        </RadioGroup>
+    </LinearLayout>
+    <View android:background="@drawable/div_popup_bottom" android:layout_width="fill_parent" android:layout_height="0.6700001dip" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="58.0dip">
+        <Button android:textSize="15.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/dialog_negative_button" android:background="@drawable/selector_popup_grey_button" android:layout_width="132.0dip" android:layout_height="36.0dip" android:text="@string/cancel" />
+        <Button android:textSize="15.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/dialog_positive_button" android:background="@drawable/my_library_btn_bg" android:layout_width="132.0dip" android:layout_height="36.0dip" android:layout_marginLeft="8.0dip" android:text="@string/apply" />
+    </LinearLayout>
+</LinearLayout>

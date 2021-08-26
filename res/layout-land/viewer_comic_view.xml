@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/viewerRelativeLayout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.nhn.android.webtoon.my.ebook.viewer.widget.PocketViewerBookmarkSlideLayout android:id="@id/viewerBookmarkLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" layout="@layout/viewer_arrow_left_style" />
+    <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" layout="@layout/viewer_arrow_right_style" />
+    <ImageButton android:id="@id/verticalScrollBottomBtn" android:background="@color/transparent" android:paddingTop="10.0dip" android:paddingBottom="14.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/vertical_scroll_bottom_btn" android:scaleType="center" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <com.nhn.android.webtoon.my.ebook.viewer.widget.PocketViewerControlSlideLayout android:id="@id/viewerControlLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" viewer:slide_option="0" xmlns:viewer="http://schemas.android.com/apk/res-auto" />
+    <com.nhn.android.webtoon.my.ebook.viewer.widget.PocketViewerComicEffectPopupLayout android:orientation="vertical" android:id="@id/viewerComicEffectPopupLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="53.329987dip" android:layout_alignParentBottom="true" />
+    <include android:id="@id/viewerIntro" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/viewer_intro_layout" />
+</RelativeLayout>

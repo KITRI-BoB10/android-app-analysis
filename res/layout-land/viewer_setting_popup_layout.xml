@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/viewerSettingPopupLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/viewerOrientationFixLayout" android:background="@drawable/viewer_effect_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="44.669983dip">
+            <LinearLayout android:gravity="center_vertical" android:layout_width="133.32999dip" android:layout_height="fill_parent">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/viewer_function01" android:scaleType="fitXY" android:contentDescription="@null" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <ImageButton android:layout_gravity="center" android:id="@id/viewerOrientationFixOn" android:background="@drawable/transparent_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="36.0dip" android:src="@drawable/viewer_setting_selector1" android:contentDescription="@null" />
+                <ImageButton android:layout_gravity="center" android:id="@id/viewerOrientationFixOff" android:background="@drawable/transparent_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/viewer_setting_selector2" android:contentDescription="@null" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:background="@drawable/viewer_effect_line_white" android:layout_width="fill_parent" android:layout_height="1.3399963dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/viewerVolumeKeySetLayout" android:background="@drawable/viewer_effect_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="44.669983dip" android:layout_marginBottom="4.669983dip">
+            <LinearLayout android:gravity="center_vertical" android:layout_width="133.32999dip" android:layout_height="fill_parent">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/viewer_function02" android:scaleType="fitXY" android:contentDescription="@null" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <ImageButton android:layout_gravity="center" android:id="@id/viewerVolumeKeySetOn" android:background="@drawable/transparent_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="36.0dip" android:src="@drawable/viewer_setting_selector1" android:contentDescription="@null" />
+                <ImageButton android:layout_gravity="center" android:id="@id/viewerVolumeKeySetOff" android:background="@drawable/transparent_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/viewer_setting_selector2" android:contentDescription="@null" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:background="@drawable/viewer_effect_line_black" android:layout_width="fill_parent" android:layout_height="1.3399963dip" />
+    </LinearLayout>
+</LinearLayout>

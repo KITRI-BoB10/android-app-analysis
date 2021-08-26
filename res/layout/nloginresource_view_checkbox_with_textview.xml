@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center|left" android:orientation="horizontal" android:id="@id/nloginglobal_view_checkbox_with_textview" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:id="@id/nloginglobal_view_checkbox_checkbox" android:clickable="false" android:layout_width="22.399994dip" android:layout_height="22.399994dip" android:button="@drawable/nloginresource_selector_checkbox_01" />
+    <TextView android:textSize="13.439972dip" android:textColor="#ff8e8e8e" android:id="@id/nloginglobal_view_checkbox_textview" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nloginresource_checkbox_margin_left" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#99000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="239.0dip" android:layout_height="305.0dip" android:layout_centerInParent="true">
+        <TextView android:textSize="25.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/sunple_main_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="61.0dip" android:text="@string/sunple_message_1" android:includeFontPadding="false" android:layout_centerHorizontal="true" android:lineSpacingExtra="5.0sp" android:textAlignment="center" />
+        <View android:id="@id/sunple_thin_line" android:background="#ffcecece" android:layout_width="20.0dip" android:layout_height="@dimen/thin_line" android:layout_marginTop="15.0dip" android:layout_below="@id/sunple_main_text" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="16.0sp" android:textColor="#ff878787" android:gravity="center" android:id="@id/sunple_under_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:includeFontPadding="false" android:layout_below="@id/sunple_thin_line" android:layout_centerHorizontal="true" android:textAlignment="center" />
+        <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/sunple_ok_btn" android:background="#ff00c73c" android:layout_width="93.0dip" android:layout_height="32.0dip" android:layout_marginTop="16.0dip" android:text="@string/sunple_ok" android:layout_below="@id/sunple_under_text" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

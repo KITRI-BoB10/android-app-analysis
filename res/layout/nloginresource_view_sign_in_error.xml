@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/nloginresource_view_sign_in_error" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/nloginresource_view_sign_in_error_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nloginresource_idpwlogin_errorview_margin_left" android:layout_marginRight="@dimen/nloginresource_idpwlogin_errorview_margin_right" style="@style/nloginresource_signin_font_style_bottom_errormsg" />
+    <TextView android:id="@id/nloginresource_view_sign_in_error_msg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nloginresource_idpwlogin_errorview_margin_left" android:layout_marginRight="@dimen/nloginresource_idpwlogin_errorview_margin_right" style="@style/nloginresource_signin_font_style_bottom_errormsg" />
+</LinearLayout>

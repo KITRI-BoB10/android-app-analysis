@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/item_blockuser_placeholder_0" android:layout_width="fill_parent" android:layout_height="72.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/view_top" android:background="#ffebebeb" android:layout_width="125.0dip" android:layout_height="14.5dip" android:layout_marginStart="15.0dip" app:layout_constraintBottom_toTopOf="@id/view_bottom" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="packed" />
+    <View android:id="@id/view_bottom" android:background="#ffebebeb" android:layout_width="165.0dip" android:layout_height="11.5dip" android:layout_marginTop="7.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="@id/view_top" app:layout_constraintTop_toBottomOf="@id/view_top" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/base_main_list_swipe_refresh" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.naver.support.autoplay.AutoPlayRecyclerView android:id="@id/base_main_list_recyclerview" android:background="#ffeff0f1" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    <include android:id="@id/base_main_list_error_layout" android:visibility="gone" layout="@layout/layout_network_error" />
+</RelativeLayout>

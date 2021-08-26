@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="#ffffffff" android:paddingLeft="13.0dip" android:paddingRight="14.0dip" android:layout_width="fill_parent" android:layout_height="49.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="43.0dip" android:layout_height="20.0dip" android:src="@drawable/play_item_feed_keyword_hot" />
+    <TextView android:textSize="13.0dip" android:textStyle="bold" android:textColor="#ff454545" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/play_main_feed_keyword_title" />
+    <com.nhn.android.webtoon.play.main.widget.VerticalSmoothScrollViewPager android:id="@id/play_feed_item_keyword_viewpager" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_weight="1.0" />
+</LinearLayout>

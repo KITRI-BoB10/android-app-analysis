@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup android:orientation="horizontal" android:id="@id/zzal_submenu_viewtype_radiogroup" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RadioButton android:layout_gravity="center_vertical" android:id="@id/zzal_submenu_viewtype_staggered" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="30.0dip" android:button="@null" android:drawableTop="@drawable/selector_gz_ic_2view" app:buttonCompat="@null" />
+    <View android:layout_gravity="center_vertical" android:background="#ffe9eaec" android:layout_width="1.0dip" android:layout_height="12.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+    <RadioButton android:layout_gravity="center_vertical" android:id="@id/zzal_submenu_viewtype_linear" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="30.0dip" android:button="@null" android:drawableTop="@drawable/selector_gz_ic_1view" app:buttonCompat="@null" />
+</RadioGroup>

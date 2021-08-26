@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="false">
+        <bitmap android:gravity="center" android:src="@drawable/cookieoven_tag_list_toogle_button_open" />
+    </item>
+    <item>
+        <bitmap android:gravity="center" android:src="@drawable/cookieoven_tag_list_toogle_button_close" />
+    </item>
+</selector>

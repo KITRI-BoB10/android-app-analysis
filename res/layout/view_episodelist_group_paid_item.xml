@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/view_episodelist_group_paid_item_0" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="13.0sp" android:textColor="@android:color/black" android:id="@id/charge_episode_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="15.0dip" />
+    <TextView android:textSize="13.0sp" android:textColor="@android:color/black" android:id="@id/charge_episode_folding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/charge_info_header_folding_preview" android:layout_centerVertical="true" android:layout_marginStart="15.0dip" />
+    <ImageView android:id="@id/episode_charge_header_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/episode_charge_header_selector" android:layout_centerVertical="true" android:layout_marginStart="5.5dip" android:layout_marginEnd="14.5dip" android:layout_alignParentEnd="true" />
+    <FrameLayout android:id="@id/first_round_image_container" android:layout_width="38.5dip" android:layout_height="38.5dip" android:layout_centerVertical="true" android:layout_toStartOf="@id/episode_charge_header_indicator">
+        <de.hdodenhof.circleimageview.CircleImageView android:id="@id/first_round_image_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@color/episodelist_thumbnail_background" app:civ_border_color="@color/white" app:civ_border_width="2.0dip" />
+        <View android:layout_gravity="center" android:background="@drawable/episodelist_chargegroup_thumbnail_border" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="2.0dip" />
+        <ImageView android:layout_gravity="end" android:id="@id/first_round_dot" android:layout_width="9.0dip" android:layout_height="9.0dip" android:layout_margin="2.0dip" android:src="@drawable/episode_charge_header_red_dot_round_shape" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/second_round_image_container" android:layout_width="38.5dip" android:layout_height="38.5dip" android:layout_centerVertical="true" android:layout_marginEnd="27.0dip" android:layout_toStartOf="@id/episode_charge_header_indicator">
+        <de.hdodenhof.circleimageview.CircleImageView android:id="@id/second_round_image_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@color/episodelist_thumbnail_background" app:civ_border_color="@color/white" app:civ_border_width="2.0dip" />
+        <View android:layout_gravity="center" android:background="@drawable/episodelist_chargegroup_thumbnail_border" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="2.0dip" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/third_round_image_container" android:layout_width="38.5dip" android:layout_height="38.5dip" android:layout_centerVertical="true" android:layout_marginEnd="54.0dip" android:layout_toStartOf="@id/episode_charge_header_indicator">
+        <de.hdodenhof.circleimageview.CircleImageView android:id="@id/third_round_image_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@color/episodelist_thumbnail_background" app:civ_border_color="@color/white" app:civ_border_width="2.0dip" />
+        <View android:layout_gravity="center" android:background="@drawable/episodelist_chargegroup_thumbnail_border" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="2.0dip" />
+    </FrameLayout>
+    <View android:id="@id/charge_episode_bottom_thin_line" android:background="#809d9d9d" android:layout_width="fill_parent" android:layout_height="@dimen/thin_line" android:layout_alignParentBottom="true" />
+</RelativeLayout>

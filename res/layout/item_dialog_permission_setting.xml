@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:tag="layout/item_dialog_permission_setting_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:layout_width="2.0dip" android:layout_height="2.0dip" android:src="@drawable/dialog_permission_setting_circle" />
+    <TextView android:textSize="15.0sp" android:textColor="#ff232b37" android:id="@id/text_permission" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" />
+</LinearLayout>

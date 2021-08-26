@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/_243_243_245" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/_135_135_135" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="26.669983dip" android:text="@string/scrap_empty_bookmark" android:shadowColor="@color/white_opa50" android:shadowDy="2.0" android:shadowRadius="2.0" />
+        <View android:background="@drawable/viewer_scrap_line" android:layout_width="fill_parent" android:layout_height="3.3299866dip" android:layout_marginTop="23.329987dip" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:layout_marginBottom="30.0dip" android:src="@drawable/viewer_scrap_img_03" android:scaleType="fitXY" android:contentDescription="@null" />
+    </LinearLayout>
+</ScrollView>

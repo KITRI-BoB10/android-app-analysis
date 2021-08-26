@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.opengl.GLSurfaceView android:id="@id/ar_mission_space_surface_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/ar_mission_space_target_area" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:layout_gravity="right" android:id="@id/ar_mission_space_close" android:padding="12.0dip" android:layout_width="54.0dip" android:layout_height="54.0dip" android:layout_marginTop="3.0dip" android:src="@drawable/ar_meet_close_white_shadow" />
+    <ImageView android:id="@id/ar_mission_space_tip" android:padding="12.0dip" android:layout_width="54.0dip" android:layout_height="54.0dip" android:layout_marginTop="3.0dip" android:src="@drawable/ar_meet_btn_tip" />
+    <com.nhn.android.webtoon.episode.viewer.effect.meet.widget.TipLayout android:id="@id/space_tip_layout" android:background="#99804fc6" android:paddingBottom="12.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/space_tip_image" android:layout_width="56.0dip" android:layout_height="56.0dip" android:src="@drawable/ar_meet_space_tip" android:layout_centerInParent="true" />
+        <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:text="@string/ar_meet_space_tip" android:layout_below="@id/space_tip_image" android:layout_centerHorizontal="true" android:lineSpacingExtra="3.0sp" />
+    </com.nhn.android.webtoon.episode.viewer.effect.meet.widget.TipLayout>
+    <View android:id="@id/space_mission_end" android:background="#ffffffff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:tag="layout/view_remaintimebar_error_0" android:background="@drawable/remain_time_bar_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/imageview_episodelist_appbar_remaintimeinfo_error" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.5dip" android:layout_marginBottom="12.5dip" android:src="@drawable/recommend_finish_remain_time_refresh" android:contentDescription="@string/contentdescription_recommendfinish_reload" android:layout_marginStart="15.0dip" android:layout_marginEnd="5.0dip" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/recommend_finish_status_bar_info" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/more_load_network_error" android:lineSpacingExtra="1.0sp" />
+</LinearLayout>

@@ -1,0 +1,34 @@
+.class public final synthetic Lcom/nhn/android/webtoon/common/scheme/a;
+.super Ljava/lang/Object;
+.source "lambda"
+
+# interfaces
+.implements Landroid/content/DialogInterface$OnClickListener;
+
+
+# instance fields
+.field public final synthetic S:Lcom/nhn/android/webtoon/common/scheme/UpgreadDialogActivity;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/nhn/android/webtoon/common/scheme/UpgreadDialogActivity;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/nhn/android/webtoon/common/scheme/a;->S:Lcom/nhn/android/webtoon/common/scheme/UpgreadDialogActivity;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onClick(Landroid/content/DialogInterface;I)V
+    .locals 1
+
+    iget-object v0, p0, Lcom/nhn/android/webtoon/common/scheme/a;->S:Lcom/nhn/android/webtoon/common/scheme/UpgreadDialogActivity;
+
+    invoke-virtual {v0, p1, p2}, Lcom/nhn/android/webtoon/common/scheme/UpgreadDialogActivity;->U0(Landroid/content/DialogInterface;I)V
+
+    return-void
+.end method

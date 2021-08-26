@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/view_viewer_meetshare_0" android:background="@drawable/ar_meet_share_background" android:layout_width="fill_parent" android:layout_height="596.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/image_frame_shadow" android:background="@drawable/bg_meet_share_shadow" android:layout_width="306.0dip" android:layout_height="378.0dip" android:layout_marginTop="131.0dip" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/image_frame" android:background="@drawable/meet_share_frame" android:layout_width="284.0dip" android:layout_height="364.0dip" android:layout_alignTop="@id/image_frame_shadow" android:layout_centerHorizontal="true" />
+    <com.nhn.android.webtoon.common.widget.RoundedImageView android:id="@id/share_image" android:tag="binding_1" android:layout_width="252.0dip" android:layout_height="252.0dip" android:layout_marginTop="24.0dip" android:scaleType="centerCrop" android:layout_alignTop="@id/image_frame" android:layout_centerHorizontal="true" app:corner_radius="4.0dip" />
+    <View android:background="@drawable/ar_meet_share_border" android:layout_width="252.0dip" android:layout_height="252.0dip" android:layout_marginTop="24.0dip" android:layout_alignTop="@id/image_frame" android:layout_centerHorizontal="true" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-13.0dip" android:layout_marginTop="-20.0dip" android:src="@drawable/img_tape" android:layout_alignLeft="@id/image_frame_shadow" android:layout_alignTop="@id/image_frame_shadow" />
+    <ImageView android:id="@id/btn_share" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="31.0dip" android:adjustViewBounds="true" android:layout_below="@id/share_image" android:layout_centerHorizontal="true" />
+</RelativeLayout>

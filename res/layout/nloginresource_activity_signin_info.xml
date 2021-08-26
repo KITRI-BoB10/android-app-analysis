@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/nloginresource_signininfo_scrollview" android:background="@color/activity_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="@dimen/nloginresource_outerbox_padding_left" android:paddingRight="@dimen/nloginresource_outerbox_padding_right" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.nhn.android.login.ui.view.NLoginTabletTitleView android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.nhn.android.login.ui.view.NLoginTabletMaxWidthLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minWidth="@dimen/nloginresource_innerbox_minwidth" nlogintablet_maxwidth_linearlayout:nloginattr_max_width="@dimen/nloginresource_innerbox_maxwidth" xmlns:nlogintablet_maxwidth_linearlayout="http://schemas.android.com/apk/res-auto">
+            <com.nhn.android.login.ui.view.NLoginTabletSimpleIdListView android:id="@id/nloginresource_simpleid_listview_for_myinfo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/nloginresource_signin_info_myinfo_margin_top" />
+            <Button android:id="@id/nloginglobal_signin_info_btn_signout" android:background="@color/button_green" android:layout_width="fill_parent" android:layout_height="@dimen/nloginresource_signin_info_btn_height" android:layout_marginTop="@dimen/nloginresource_signin_info_btn_margin_top" android:text="@string/nloginglobal_signin_info_signout" style="@style/nloginresource_font_style_btn_40_white" />
+            <Button android:id="@id/nloginglobal_signin_info_btn_otn" android:background="@color/button_gray" android:layout_width="fill_parent" android:layout_height="@dimen/nloginresource_signin_info_btn_height" android:layout_marginTop="@dimen/nloginresource_signin_info_btn_margin_top" android:layout_marginBottom="@dimen/nloginresource_signin_info_btn_margin_bottom" android:text="@string/nloginglobal_signin_info_otn" style="@style/nloginresource_font_style_btn_40_white" />
+            <com.nhn.android.login.ui.view.NLoginTabletSimpleIdListView android:id="@id/nloginresource_simpleid_listview" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.nhn.android.login.ui.view.NLoginTabletSimpleIdAddButtonView android:id="@id/nloginresource_simpleid_add_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.nhn.android.login.ui.view.NLoginTabletSimpleIdDescriptionView android:id="@id/nloginresource_simpleid_description_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.nhn.android.login.ui.view.NLoginGlobalCopyrightView android:id="@id/nloginresource_footer_copyright_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        </com.nhn.android.login.ui.view.NLoginTabletMaxWidthLinearLayout>
+    </LinearLayout>
+</ScrollView>

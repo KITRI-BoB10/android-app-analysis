@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.nhn.android.webtoon.common.widget.RatioImageView android:id="@id/zzal_simple_thumbnail" android:background="@drawable/gz_ptrn_img_pattern" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="@drawable/gz_simple_item_image_view_foreground" android:scaleType="centerCrop" android:maxHeight="400.0dip" android:minHeight="60.0dip" />
+        <ViewStub android:id="@id/zzal_simple_blind_viewstub" android:layout="@layout/item_zzal_blind" android:inflatedId="@id/item_zzal_blind_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <RelativeLayout android:background="@drawable/gz_bg_2view" android:paddingLeft="13.0dip" android:paddingTop="9.0dip" android:paddingRight="10.0dip" android:paddingBottom="9.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0sp" android:typeface="sans" android:textColor="#ff222222" android:ellipsize="end" android:id="@id/zzal_simple_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_marginBottom="9.0dip" android:maxLines="2" android:includeFontPadding="false" android:layout_alignParentLeft="true" />
+        <ImageView android:id="@id/zzal_simple_like_icon" android:layout_width="13.0dip" android:layout_height="14.0dip" android:layout_marginRight="3.0dip" android:src="@drawable/gz_ic_like_s" android:layout_below="@id/zzal_simple_title" android:layout_alignParentLeft="true" />
+        <TextView android:textSize="11.0sp" android:typeface="sans" android:textColor="#ff424242" android:id="@id/zzal_simple_like_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:includeFontPadding="false" android:layout_toRightOf="@id/zzal_simple_like_icon" android:layout_below="@id/zzal_simple_title" />
+        <ImageView android:id="@id/zzal_simple_comment_icon" android:layout_width="13.0dip" android:layout_height="14.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="3.0dip" android:src="@drawable/gz_ic_comment_s" android:layout_toRightOf="@id/zzal_simple_like_count" android:layout_below="@id/zzal_simple_title" />
+        <TextView android:textSize="11.0sp" android:typeface="sans" android:textColor="#ff424242" android:gravity="bottom" android:id="@id/zzal_simple_comment_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:includeFontPadding="false" android:layout_toRightOf="@id/zzal_simple_comment_icon" android:layout_below="@id/zzal_simple_title" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nloginresource_dimen_snslogin_title_padding_left" android:layout_marginBottom="@dimen/nloginresource_dimen_snslogin_title_padding_bottom">
+        <TextView android:layout_width="1.0dip" android:layout_height="wrap_content" android:text="@string/nid_idp_container_title" android:layout_weight="1.0" style="@style/nid_idp_font_title" />
+        <LinearLayout android:gravity="center_vertical" android:id="@id/nloginresource_bt_snslogin_more" android:paddingLeft="@dimen/nloginresource_dimen_snslogin_more_padding_left" android:paddingRight="@dimen/nloginresource_dimen_snslogin_arrow_padding_right" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:paddingRight="@dimen/nloginresource_dimen_snslogin_more_padding_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nid_idp_container_more" style="@style/nid_idp_font_more" />
+            <ImageView android:id="@id/nloginresource_bt_snslogin_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/nloginresource_dimen_snslogin_arrow_margin_top" android:src="@drawable/nloginresource_selector_idpmore_arrow" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/nloginresource_idp_first_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/nloginresource_dimen_snslogin_btn_margin_bottom">
+        <RelativeLayout android:id="@id/nloginresource_idp_first_layout" android:visibility="invisible" android:clickable="false" android:layout_width="0.0dip" android:layout_height="@dimen/nloginresource_dimen_snslogin_btn_height" android:layout_marginRight="@dimen/nloginresource_dimen_snslogin_btn_gap_between" android:layout_weight="1.0">
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nloginresource_dimen_snslogin_btn_icon_margin_left" android:layout_centerVertical="true">
+                <ImageView android:id="@id/nloginresource_idp_first_image" android:layout_width="@dimen/nloginresource_dimen_snslogin_btn_icon_width" android:layout_height="@dimen/nloginresource_dimen_snslogin_btn_icon_height" android:layout_marginRight="@dimen/nloginresource_dimen_snslogin_btn_icon_margin_right" />
+                <TextView android:layout_gravity="center_vertical" android:id="@id/nloginresource_idp_first_title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/nid_idp_font_button" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/nloginresource_idp_second_layout" android:visibility="invisible" android:clickable="false" android:layout_width="0.0dip" android:layout_height="@dimen/nloginresource_dimen_snslogin_btn_height" android:layout_marginRight="@dimen/nloginresource_dimen_snslogin_btn_gap_between" android:layout_weight="1.0">
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nloginresource_dimen_snslogin_btn_icon_margin_left" android:layout_centerVertical="true">
+                <ImageView android:id="@id/nloginresource_idp_second_image" android:layout_width="@dimen/nloginresource_dimen_snslogin_btn_icon_width" android:layout_height="@dimen/nloginresource_dimen_snslogin_btn_icon_height" android:layout_marginRight="@dimen/nloginresource_dimen_snslogin_btn_icon_margin_right" />
+                <TextView android:layout_gravity="center_vertical" android:id="@id/nloginresource_idp_second_title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/nid_idp_font_button" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/nloginresource_idp_second_container" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/nloginresource_dimen_snslogin_btn_margin_bottom">
+        <RelativeLayout android:id="@id/nloginresource_idp_third_layout" android:visibility="invisible" android:clickable="false" android:layout_width="0.0dip" android:layout_height="@dimen/nloginresource_dimen_snslogin_btn_height" android:layout_marginRight="@dimen/nloginresource_dimen_snslogin_btn_gap_between" android:layout_weight="1.0">
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nloginresource_dimen_snslogin_btn_icon_margin_left" android:layout_centerVertical="true">
+                <ImageView android:id="@id/nloginresource_idp_third_image" android:layout_width="@dimen/nloginresource_dimen_snslogin_btn_icon_width" android:layout_height="@dimen/nloginresource_dimen_snslogin_btn_icon_height" android:layout_marginRight="@dimen/nloginresource_dimen_snslogin_btn_icon_margin_right" />
+                <TextView android:layout_gravity="center_vertical" android:id="@id/nloginresource_idp_third_title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/nid_idp_font_button" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/nloginresource_idp_fourth_layout" android:visibility="invisible" android:clickable="false" android:layout_width="0.0dip" android:layout_height="@dimen/nloginresource_dimen_snslogin_btn_height" android:layout_marginRight="@dimen/nloginresource_dimen_snslogin_btn_gap_between" android:layout_weight="1.0">
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nloginresource_dimen_snslogin_btn_icon_margin_left" android:layout_centerVertical="true">
+                <ImageView android:id="@id/nloginresource_idp_fourth_image" android:layout_width="@dimen/nloginresource_dimen_snslogin_btn_icon_width" android:layout_height="@dimen/nloginresource_dimen_snslogin_btn_icon_height" android:layout_marginRight="@dimen/nloginresource_dimen_snslogin_btn_icon_margin_right" />
+                <TextView android:layout_gravity="center_vertical" android:id="@id/nloginresource_idp_fourth_title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/nid_idp_font_button" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

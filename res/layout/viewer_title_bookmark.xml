@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/title_common" android:layout_width="fill_parent" android:layout_height="42.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="77.32999dip" android:layout_height="fill_parent" />
+    <TextView android:textSize="19.329987sp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/viewerBookmarkTitle" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/viewer_bookmark_title1" android:singleLine="true" android:layout_weight="1.0" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="32.0dip" android:layout_height="wrap_content" android:layout_marginRight="4.0dip">
+        <ImageButton android:id="@id/refreshBtn" android:background="@drawable/title_btn" android:layout_width="32.0dip" android:layout_height="31.329987dip" android:src="@drawable/icon_refresh" android:scaleType="center" android:contentDescription="@null" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center|right" android:orientation="horizontal" android:layout_width="36.669983dip" android:layout_height="fill_parent" android:layout_marginRight="4.669983dip">
+        <Button android:id="@id/btn_right_text" android:background="@drawable/title_btn" android:layout_width="36.669983dip" android:layout_height="32.0dip" style="@style/title_button_text_style" />
+    </LinearLayout>
+</LinearLayout>

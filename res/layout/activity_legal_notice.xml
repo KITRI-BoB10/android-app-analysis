@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.nhn.android.webtoon.common.widget.WebtoonToolbar android:id="@id/legal_notice_toolbar" android:layout_width="fill_parent" android:layout_height="@dimen/action_bar_height" />
+    <ScrollView android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="12.0sp" android:typeface="sans" android:textColor="#ff888888" android:id="@id/text_license" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="15.0dip" android:singleLine="false" android:lineSpacingExtra="6.0dip" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

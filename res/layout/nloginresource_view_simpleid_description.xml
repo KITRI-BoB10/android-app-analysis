@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/nloginresource_simplelogin_bottom_desc_padding_left" android:paddingRight="@dimen/nloginresource_simplelogin_bottom_desc_padding_right" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/nloginresource_simplelogin_bottom_desc_margin_bottom"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/nloginglobal_simpleid_description_view_layout_desc1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nloginresource_simplelogin_bottom_desc_point_marginleft" android:layout_marginTop="@dimen/nloginresource_simplelogin_bottom_desc_point" android:layout_marginRight="@dimen/nloginresource_simplelogin_bottom_desc_text_hori_gap" android:src="@drawable/nloginresource_img_blt_2x" />
+        <TextView android:gravity="left" android:id="@id/nloginglobal_simpleid_description_view_tv_desc1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/nloginglobal_simple_id_str_desc1" android:singleLine="false" style="@style/nloginresource_simple_id_font_style_simple_id_desc" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/nloginglobal_simpleid_description_view_layout_desc2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/nloginresource_simplelogin_bottom_desc_text_veri_gap">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nloginresource_simplelogin_bottom_desc_point_marginleft" android:layout_marginTop="@dimen/nloginresource_simplelogin_bottom_desc_point" android:layout_marginRight="@dimen/nloginresource_simplelogin_bottom_desc_text_hori_gap" android:src="@drawable/nloginresource_img_blt_2x" />
+        <TextView android:gravity="left" android:id="@id/nloginglobal_simpleid_description_view_tv_desc2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/nloginglobal_simple_id_str_desc2" android:singleLine="false" style="@style/nloginresource_simple_id_font_style_simple_id_desc" />
+    </LinearLayout>
+</LinearLayout>

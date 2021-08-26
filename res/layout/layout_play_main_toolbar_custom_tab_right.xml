@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="90.0dip" android:layout_height="36.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0dip" android:textColor="@color/play_main_toolbar_tab_text_color" android:id="@id/play_main_toolbar_text" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="4.5dip" android:layout_marginBottom="7.0dip" android:layout_weight="1.0" />
+    <View android:background="@drawable/play_main_toolbar_tab_indicator" android:layout_width="80.0dip" android:layout_height="2.0dip" android:layout_marginTop="3.5dip" />
+</LinearLayout>

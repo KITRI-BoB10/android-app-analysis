@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nloginresource_signin_keyboard_switch_ko">한글 ></string>
+    <string name="nloginresource_signin_keyboard_switch_sp">특수 기호 ></string>
+</resources>

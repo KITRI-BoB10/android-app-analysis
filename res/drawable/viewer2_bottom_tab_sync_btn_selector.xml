@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:drawable="@drawable/viewer_relay_loading_ani" />
+    <item android:state_focused="true" android:drawable="@drawable/focused" />
+    <item android:state_enabled="false" android:drawable="@drawable/viewer2_tab_sync_pressed" />
+    <item android:state_selected="false" android:drawable="@drawable/viewer2_tab_sync" />
+    <item android:drawable="@drawable/viewer2_tab_sync" />
+</selector>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/activity_sara_random_voice_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.naver.webtoon.device.camera.CameraSourcePreview android:id="@id/camera_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/default_background_img" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@color/white" android:scaleType="centerCrop" />
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@id/speaker_drawee" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" android:adjustViewBounds="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/stop_btn" android:tag="binding_1" android:layout_width="105.0dip" android:layout_height="34.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="7.0dip" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

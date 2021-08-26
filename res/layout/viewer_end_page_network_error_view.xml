@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/main_layout" android:tag="layout/viewer_end_page_network_error_view_0" android:background="@drawable/pocket_viewer_end_popup_bg" android:layout_width="288.0dip" android:layout_height="194.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="@color/_148_155_169" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/please_check_the_status_of_the_network_connection" android:drawableTop="@drawable/img_network" android:drawablePadding="14.0dip" />
+</LinearLayout>

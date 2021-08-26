@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/fragment_todaybest_0" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="17.0dip" android:layout_marginBottom="14.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0dip" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="7.0dip" android:text="@string/best_challenge_today_best_title" android:includeFontPadding="false" />
+    <LinearLayout android:orientation="horizontal" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/layout_today_best_item_1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="6.5dip" layout="@layout/layout_bestchallenge_today_best_item" />
+        <include android:id="@id/layout_today_best_item_2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="6.5dip" layout="@layout/layout_bestchallenge_today_best_item" />
+        <include android:id="@id/layout_today_best_item_3" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/layout_bestchallenge_today_best_item" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/dust_touch_girl" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/dust_close" android:padding="12.0dip" android:layout_width="54.0dip" android:layout_height="54.0dip" android:layout_marginTop="3.0dip" android:src="@drawable/ar_meet_close_white_shadow" android:layout_alignParentRight="true" />
+    <ImageView android:id="@id/dust_tip_button" android:padding="12.0dip" android:layout_width="54.0dip" android:layout_height="54.0dip" android:layout_marginTop="3.0dip" android:src="@drawable/ar_meet_btn_tip" />
+    <com.nhn.android.webtoon.episode.viewer.effect.meet.dusttouch.DustImageView android:id="@id/dust_touch_second" android:clickable="false" android:layout_width="75.0dip" android:layout_height="90.0dip" android:layout_marginTop="59.0dip" android:layout_centerHorizontal="true" />
+    <com.nhn.android.webtoon.episode.viewer.effect.meet.dusttouch.DustImageView android:id="@id/dust_touch_first" android:clickable="false" android:layout_width="75.0dip" android:layout_height="90.0dip" android:layout_marginTop="59.0dip" android:layout_toLeftOf="@id/dust_touch_second" />
+    <com.nhn.android.webtoon.episode.viewer.effect.meet.dusttouch.DustImageView android:id="@id/dust_touch_third" android:clickable="false" android:layout_width="75.0dip" android:layout_height="90.0dip" android:layout_marginTop="59.0dip" android:layout_toRightOf="@id/dust_touch_second" />
+    <com.nhn.android.webtoon.episode.viewer.effect.meet.widget.TipLayout android:id="@id/dust_tip_layout" android:background="#99804fc6" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/dust_tip_image" android:layout_width="70.0dip" android:layout_height="117.0dip" android:layout_marginTop="106.0dip" android:src="@drawable/meet_tip_dust_touch" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="@string/dust_off_tip" android:layout_below="@id/dust_tip_image" android:layout_centerHorizontal="true" android:lineSpacingExtra="2.0sp" />
+    </com.nhn.android.webtoon.episode.viewer.effect.meet.widget.TipLayout>
+    <View android:id="@id/dust_mission_end" android:background="#ffffffff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

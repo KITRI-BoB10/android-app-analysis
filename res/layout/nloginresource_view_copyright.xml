@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom|center" android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/nloginresource_view_copyright" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:paddingLeft="@dimen/nloginresource_footer_spacing" android:paddingTop="@dimen/nloginresource_footer_margin_top" android:paddingRight="@dimen/nloginresource_footer_spacing" android:paddingBottom="@dimen/nloginresource_footer_margin_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="© NAVER Corp." android:contentDescription="@string/nloginresource_description_textview_copyright" android:importantForAccessibility="no" style="@style/nloginresource_common_font_style_footer_naver" />
+        <LinearLayout android:gravity="center" android:paddingTop="@dimen/nloginresource_footer_margin_top" android:paddingBottom="@dimen/nloginresource_footer_margin_bottom" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <View android:background="#ffe7e8e9" android:layout_width="@dimen/nloginresource_common_verticalline_width" android:layout_height="@dimen/nloginresource_common_verticalline_height" />
+        </LinearLayout>
+        <TextView android:id="@id/nloginresource_footer_bt_myinfo" android:background="@android:color/transparent" android:paddingLeft="@dimen/nloginresource_footer_spacing" android:paddingTop="@dimen/nloginresource_footer_margin_top" android:paddingRight="@dimen/nloginresource_footer_spacing" android:paddingBottom="@dimen/nloginresource_footer_margin_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nloginresource_common_myinfo" style="@style/nloginresource_common_font_style_footer" />
+        <LinearLayout android:gravity="center" android:id="@id/nloginresource_footer_seperator_myinfo" android:paddingTop="@dimen/nloginresource_footer_margin_top" android:paddingBottom="@dimen/nloginresource_footer_margin_bottom" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <View android:background="#ffe7e8e9" android:layout_width="@dimen/nloginresource_common_verticalline_width" android:layout_height="@dimen/nloginresource_common_verticalline_height" />
+        </LinearLayout>
+        <TextView android:id="@id/nloginresource_footer_bt_help" android:background="@android:color/transparent" android:paddingLeft="@dimen/nloginresource_footer_spacing" android:paddingTop="@dimen/nloginresource_footer_margin_top" android:paddingRight="@dimen/nloginresource_footer_spacing" android:paddingBottom="@dimen/nloginresource_footer_margin_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nloginresource_common_help" style="@style/nloginresource_common_font_style_footer" />
+    </LinearLayout>
+</LinearLayout>

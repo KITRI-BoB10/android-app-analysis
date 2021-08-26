@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg_popup_wh" android:layout_width="312.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="52.0dip">
+        <RelativeLayout android:id="@id/dialog_close_layout" android:layout_width="34.0dip" android:layout_height="fill_parent" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+            <ImageView android:background="@drawable/selector_btn_popup_x" android:duplicateParentState="true" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <TextView android:textSize="18.0sp" android:textColor="#ff191c1c" android:gravity="center" android:id="@id/dialog_title_text" android:layout_width="236.0dip" android:layout_height="wrap_content" android:text="@string/caution_of_delete_title" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <ImageView android:background="@drawable/div_popup_title" android:layout_width="fill_parent" android:layout_height="0.6700001dip" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="22.0dip" android:layout_marginTop="18.0dip" android:layout_marginRight="22.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="@color/_333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/caution_of_delete_1" android:includeFontPadding="false" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/webtoon_plus_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:text="@string/caution_of_delete_2" android:includeFontPadding="false" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/_555555" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="3.0dip" android:text="@string/caution_of_delete_3" android:includeFontPadding="false" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/webtoon_plus_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/caution_of_delete_4" android:includeFontPadding="false" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/_555555" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="3.0dip" android:text="@string/caution_of_delete_5" android:includeFontPadding="false" />
+        <View android:layout_width="fill_parent" android:layout_height="18.0dip" />
+    </LinearLayout>
+</LinearLayout>

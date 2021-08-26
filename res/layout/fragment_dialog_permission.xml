@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/fragment_dialog_permission_0" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/root_permission_layer" layout="@layout/layer_dialog_permission" />
+    <include android:id="@id/root_permission_setting_layer" android:visibility="gone" layout="@layout/layer_dialog_permission_setting" />
+</androidx.constraintlayout.widget.ConstraintLayout>
