@@ -4,7 +4,7 @@
 ### Extract and release Application apk file
 After connecting the Android-based smartphone to the local environment, applying the developer mode option, the apk file was extracted directly.  
 ```sh
-$ adb shell pm list packages -f | findstr webtoon
+$ adb shell pm list packages -f | findstr [TARGET]
 $ adb pull [PATH.apk] .
 $ mkdir [DIRNAME]
 $ move [FILENAME.apk] [DIRNAME]
